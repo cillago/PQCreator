@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PQCreator", "PQCreator\PQCreator.csproj", "{FCCDFF25-E93D-4E6E-9C83-BA14A3F80201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PQCreatorTests", "PQCreatorTests\PQCreatorTests.csproj", "{0EB56048-74F9-4434-BBD3-37D1B557DF18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCCDFF25-E93D-4E6E-9C83-BA14A3F80201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCDFF25-E93D-4E6E-9C83-BA14A3F80201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCDFF25-E93D-4E6E-9C83-BA14A3F80201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCDFF25-E93D-4E6E-9C83-BA14A3F80201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB56048-74F9-4434-BBD3-37D1B557DF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB56048-74F9-4434-BBD3-37D1B557DF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB56048-74F9-4434-BBD3-37D1B557DF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB56048-74F9-4434-BBD3-37D1B557DF18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
