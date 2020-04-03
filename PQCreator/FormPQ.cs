@@ -46,7 +46,7 @@ namespace PQCreator
 
         private void bcreaodf_Click(object sender, EventArgs e)
         {
-            OpenDialog.Filter = "ODT Files|*.odt";
+            OpenDialog.Filter = "DOCX Files|*.docx|All Files|*.*";
             OpenDialog.Multiselect = false;
             OpenDialog.FileName = "";
 
@@ -55,6 +55,7 @@ namespace PQCreator
                 //CARICO TXT
                 string problems;
                 odtI = new ODTImporter();
+             //   odtI.OpenDOCX((object)OpenDialog.FileName);
                 odtI.OpenODT(OpenDialog.FileName);
                 //odtI.OpenTXT(OpenDialog.FileName);
                 problems = odtI.PutTag();
@@ -259,7 +260,7 @@ namespace PQCreator
                 baseText = baseText.Replace("<!--SECONDOTESTO-->", WebUtility.HtmlEncode(Testo2).Replace("!!!ACAPO!!!", @"<br/>"));
                 baseText = baseText.Replace("<!--RITORNO-->", WebUtility.HtmlEncode(ritorno));
 
-
+                Directory.CreateDirectory("santiNuovi");
                 File.WriteAllText(@".\santiNuovi\" + santixhtmlfile, baseText);
                 File.Copy(dirSanti + @"\" + oldimgfile, @".\santiNuovi\" + newimgfile,true);
 
@@ -290,7 +291,8 @@ namespace PQCreator
         private void creaEPUB_Click(object sender, EventArgs e)
         {
             string FileCopertina = null;
-            string FileCalendario = null;
+            string FileCalendario1 = null;
+            string FileCalendario2 = null;
 
             if (rtxS == null)
             {
@@ -304,9 +306,14 @@ namespace PQCreator
             if (OpenDialog.ShowDialog() == DialogResult.OK) FileCopertina = OpenDialog.FileName;
 
             OpenDialog.Filter = "JPEG File|*.jpg";
-            OpenDialog.Title = "Selezionare immagine del calendario";
+            OpenDialog.Title = "Selezionare immagine del calendario1";
             OpenDialog.FileName = "";
-            if (OpenDialog.ShowDialog() == DialogResult.OK) FileCalendario = OpenDialog.FileName;
+            if (OpenDialog.ShowDialog() == DialogResult.OK) FileCalendario1 = OpenDialog.FileName;
+
+            OpenDialog.Filter = "JPEG File|*.jpg";
+            OpenDialog.Title = "Selezionare immagine del calendario2";
+            OpenDialog.FileName = "";
+            if (OpenDialog.ShowDialog() == DialogResult.OK) FileCalendario2 = OpenDialog.FileName;
 
             SaveDialog.Filter = "EPUB File|*.epub";
             SaveDialog.FileName = TPQTitle.Text + ".epub";
@@ -316,7 +323,7 @@ namespace PQCreator
                 epubW = new EPUBWriter(checkSanti.Checked);
                 epubW.LoadStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_epub.csv"));
                 epubW.LoadBaseFile();
-                epubW.CreateEpub(SaveDialog.FileName, PQI.dicPQTag, TPQTitle.Text, TISBN.Text, FileCopertina, FileCalendario);
+                epubW.CreateEpub(SaveDialog.FileName, PQI.dicPQTag, TPQTitle.Text, TISBN.Text, FileCopertina, FileCalendario1, FileCalendario2);
 
                 CreateMOBI(SaveDialog.FileName);
 

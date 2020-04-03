@@ -134,7 +134,7 @@ namespace PQCreator
             foreach (KeyValuePair<string, Dictionary<string, Story>> giorno in dicPQTag)
             {
 
-                string[] checkTag = { "#10", "#11", "#20", "#40", "#50", "#51"};
+                string[] checkTag = { "#10", "#11", "#20", "#40", "#50", "#51" };
                 for (int i = 0; i < checkTag.Length; i++)
                 {
                     if (!giorno.Value.ContainsKey(checkTag[i]))
@@ -142,7 +142,7 @@ namespace PQCreator
                 }
 
                 //DOMENICA --> deve esserci seconda lettura
-                if (giorno.Value.ContainsKey("#09") && (!giorno.Value.ContainsKey("#30") || !giorno.Value.ContainsKey("#31")) ) sproblem += giorno.Key + " manca tag:#30" + Environment.NewLine;
+                if (giorno.Value.ContainsKey("#09") && (!giorno.Value.ContainsKey("#30") || !giorno.Value.ContainsKey("#31"))) sproblem += giorno.Key + " manca tag:#30" + Environment.NewLine;
 
             }
 
@@ -461,8 +461,18 @@ namespace PQCreator
                                     case 0:
                                         {
                                             //riga vuota salto
-                                            if (l.Length == 0) break;
-                                            Add1AntifonaSalmo(new Story(CurLine));
+                                            if (l.Length == 0 && sTemp.Length == 0) break;
+                                            if (l.Length == 0)
+                                            {
+                                                Add1AntifonaSalmo(sTemp);
+                                                sTemp = new Story();
+                                                break;
+                                            }
+                                            if (èoppure(l)) Add1OppureSalmo(new Story(CurLine));
+                                            else
+                                            {
+                                                sTemp.Addstory(new Story(CurLine));
+                                            }
                                             break;
                                         }
                                     case 1:
@@ -483,8 +493,18 @@ namespace PQCreator
                                         }
                                     case 2:
                                         {
-                                            if (l.Length == 0) break;
-                                            Add2AntifonaSalmo(new Story(CurLine));
+                                            //riga vuota salto
+                                            if (l.Length == 0 && sTemp.Length == 0) break;
+                                            if (l.Length == 0)
+                                            {
+                                                Add2AntifonaSalmo(sTemp);
+                                                sTemp = new Story();
+                                                break;
+                                            }
+                                            else
+                                            {
+                                                sTemp.Addstory(new Story(CurLine));
+                                            }
                                             break;
                                         }
                                     case 3:
@@ -657,7 +677,7 @@ namespace PQCreator
             prog = 0;
             sec = newSec;
             if (inizioRif >= 0) AddRiferimento(s, newSec);
-        
+
         }
         private bool èGiornataMondiale(Story s)
         {
@@ -667,9 +687,9 @@ namespace PQCreator
 
         private bool CheckFontSize(Story s, string tag)
         {
-            float f1= Convert.ToSingle(dictPQTagIDMLData[tag][1]);
-            float f2=  s.FontSize();
-            return (f1==f2);
+            float f1 = Convert.ToSingle(dictPQTagIDMLData[tag][1]);
+            float f2 = s.FontSize();
+            return (f1 == f2);
         }
 
         private void addGiornataMondiale(Story l)
@@ -860,7 +880,7 @@ namespace PQCreator
         private static bool èInizioSalmo(Story s)
         {
             string l = s.getText();
-            return (l.StartsWith("dal salmo", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("1 sam", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("salmo", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("salmi", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("cant.", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("cant ", StringComparison.CurrentCultureIgnoreCase)) && l.Length < 40;
+            return (l.StartsWith("dal salmo", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("1 sam", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("salmo", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("salmi", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("cant.", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("sal ", StringComparison.CurrentCultureIgnoreCase) || l.StartsWith("cant ", StringComparison.CurrentCultureIgnoreCase)) && l.Length < 40;
         }
 
         private void AddTestoLettura(Story l)
@@ -983,7 +1003,7 @@ namespace PQCreator
         }
         private void addProblem(string p)
         {
-            sproblem += giornoCorrente + ": " + p + " | linea:" + lineNum + " s:" + sec + " p:" + prog + " l:" + sTemp.getText() + Environment.NewLine;
+            sproblem += giornoCorrente + ": " + p + " | linea:" + lineNum + " s:" + sec + " p:" + prog + " l:\"" + sTemp.getText() + "\"" + Environment.NewLine;
         }
 
 

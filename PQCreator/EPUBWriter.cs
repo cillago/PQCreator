@@ -16,7 +16,7 @@ namespace PQCreator
     {
         private Dictionary<string, string[]> dictEPUBDecode;
         private Dictionary<string, Dictionary<string, Story>> textTag;
-        private Dictionary<string, string> indici = new Dictionary<string, string>();        
+        private Dictionary<string, string> indici = new Dictionary<string, string>();
 
         private string pqBaseEPUBFile;
         private string dirEPUB;
@@ -61,14 +61,15 @@ namespace PQCreator
         }
 
 
-        internal void CreateEpub(string epubfile, Dictionary<string, Dictionary<string, Story>> dictionary, string PQTitle, string ISBN, string FileCopertina, string FileCalendario)
+        internal void CreateEpub(string epubfile, Dictionary<string, Dictionary<string, Story>> dictionary, string PQTitle, string ISBN, string FileCopertina, string FileCalendario1, string FileCalendario2)
         {
             textTag = dictionary;
             creaFileGiorni();
             CreaIndice(PQTitle, ISBN);
             //COPIO FILE copertina e calendario
             if (FileCopertina != null) File.Copy(FileCopertina, Path.Combine(dirEPUB, @"OEBPS\Images\COP.jpg"), true);
-            if (FileCalendario != null) File.Copy(FileCalendario, Path.Combine(dirEPUB, @"OEBPS\Images\CAL.jpg"), true);
+            if (FileCalendario1 != null) File.Copy(FileCalendario1, Path.Combine(dirEPUB, @"OEBPS\Images\CAL1.jpg"), true);
+            if (FileCalendario2 != null) File.Copy(FileCalendario2, Path.Combine(dirEPUB, @"OEBPS\Images\CAL2.jpg"), true);
 
             utility.CreateZipFile(Path.GetDirectoryName(epubfile), Path.GetFileName(epubfile), new DirectoryInfo(dirEPUB));
         }
@@ -135,6 +136,7 @@ namespace PQCreator
                 tocNCX = tocNCX.Replace("<!--COMOPEN-->", "<!--");
                 tocNCX = tocNCX.Replace("<!--COMCLOSE-->", "-->");
                 tocNCX = tocNCX.Replace("__PQTITLE__", PQTitle);
+                tocNCX = tocNCX.Replace("__ISBN__", ISBN);
                 tocHTML = tocHTML.Replace("<!--TOCHTMLGIORNI-->", tocLinkGIORNI);
                 tocHTML = tocHTML.Replace("<!--TOCHTMLSANTI-->", tocLinkSANTI);
 
@@ -267,14 +269,47 @@ namespace PQCreator
 
         private string AddLinkSanti(StoryLine riga, string nomefile, string NormalTag, string LinkedTag)
         {
+            var fileSanti = Directory.GetFiles(dirSanti).Where(x => x.Contains("santi_" + nomefile)).Select(x => x.Substring(x.LastIndexOf("\\")+1)).ToList();
 
-            string fileSanto =Directory.GetFiles(dirSanti).Where(x => x.Contains("santi_"+nomefile)).FirstOrDefault();
-
-            if (fileSanto!=null)
-                return dictEPUBDecode[LinkedTag][2].Replace("!!!!", WebUtility.HtmlEncode(new FileInfo(fileSanto).Name)) + SetCaseRiga(riga.getText(), LinkedTag) + dictEPUBDecode[LinkedTag][3] + Environment.NewLine;
-            else
+            if (fileSanti.Count==0)
                 return dictEPUBDecode[NormalTag][2] + SetCaseRiga(riga.getText(), NormalTag) + dictEPUBDecode[NormalTag][3] + Environment.NewLine;
 
+
+            var santiText = riga.getText().Split(';').ToList();
+            string ret = dictEPUBDecode[NormalTag][2];
+            Dictionary<string, string> santi = BestFitDistance(santiText, fileSanti);
+            foreach (var santo in santi)
+            {
+                if (santo.Value == null)
+                    ret += SetCaseRiga(santo.Key, NormalTag) +"; ";
+                else
+                    ret += dictEPUBDecode[LinkedTag][2].Replace("!!!!", WebUtility.HtmlEncode(santo.Value)) + SetCaseRiga(santo.Key, LinkedTag) + dictEPUBDecode[LinkedTag][3]+"; ";
+            }
+            
+            ret= ret.Substring(0,ret.Length-1) + dictEPUBDecode[NormalTag][3] + Environment.NewLine;
+
+            return ret;
+
+        }
+
+        private Dictionary<string, string> BestFitDistance(List<string> s1, List<string> s2)
+        {
+            Dictionary<string, string> ret = new Dictionary<string, string>();
+
+            foreach (string s in s2)
+            {
+                var t = s1.Select(x => new KeyValuePair<string, int>(x, ComputeDistance(x, s.Substring(6)))).OrderBy(x => x.Value).FirstOrDefault();
+
+                if (!ret.ContainsKey(t.Key))
+                    ret.Add(t.Key,s);
+            }
+
+            foreach (string s in s1)
+            {
+                if (!ret.ContainsKey(s))
+                    ret.Add(s, null);
+            }
+            return ret;
         }
 
         private string ChangeTagForStyleIfBold(StoryLine riga, string NormalTag, string ChangedTag)
@@ -283,7 +318,7 @@ namespace PQCreator
             foreach (CTextpart tp in riga.TextParts)
             {
                 if (tp.font.Bold)
-                    ret += dictEPUBDecode[ChangedTag][2] + tp.text + dictEPUBDecode[ChangedTag][3] + Environment.NewLine;
+                    ret += dictEPUBDecode[ChangedTag][2] + tp.text + dictEPUBDecode[ChangedTag][3];
                 else ret += tp.text;
             }
             return ret += dictEPUBDecode[NormalTag][3] + Environment.NewLine;
@@ -300,6 +335,43 @@ namespace PQCreator
             else return riga;
         }
 
+
+        public static int ComputeDistance(string s, string t)
+        {
+            if (string.IsNullOrEmpty(s))
+            {
+                if (string.IsNullOrEmpty(t))
+                    return 0;
+                return t.Length;
+            }
+
+            if (string.IsNullOrEmpty(t))
+            {
+                return s.Length;
+            }
+
+            int n = s.Length;
+            int m = t.Length;
+            int[,] d = new int[n + 1, m + 1];
+
+            // initialize the top and right of the table to 0, 1, 2, ...
+            for (int i = 0; i <= n; d[i, 0] = i++) ;
+            for (int j = 1; j <= m; d[0, j] = j++) ;
+
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = 1; j <= m; j++)
+                {
+                    int cost = (t[j - 1] == s[i - 1]) ? 0 : 1;
+                    int min1 = d[i - 1, j] + 1;
+                    int min2 = d[i, j - 1] + 1;
+                    int min3 = d[i - 1, j - 1] + cost;
+                    d[i, j] = Math.Min(Math.Min(min1, min2), min3);
+                }
+            }
+            return d[n, m];
+
+        }
 
     }
 }

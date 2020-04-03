@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0">
+	<Story Self="u1da" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SALMI" FontStyle="Regular" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>editoriale</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Serve un cambio di marcia</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">15</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" FirstLineIndent="8.503937007874017" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>La via della Pace è la benedizione di Dio sugli uomini; la via della guerra – così diffusa nel mondo – è la perseveranza nel male da parte di questa umanità che geme e soffre come nelle doglie del parto. </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Noi vogliamo gridare: «Il Signore faccia risplendere per te il suo volto e ti faccia grazia. Il Signore rivolga a te il suo volto e ti conceda pace».</Content>
+				<Br />
+				<Content>La via della Pace rinasce dall’abbraccio di tutti gli uomini e donne di buona volontà che ritornano a sintonizzarsi con i comandi d’amore del Signore: «Àlzati, rivestiti di luce, perché viene la tua luce, la gloria del Signore brilla sopra di te. Poiché, ecco, la tenebra ricopre la terra, nebbia fitta avvolge i popoli; ma su di te risplende il Signore, la sua gloria appare su di te. Cammineranno le genti alla tua luce, i re allo splendore del tuo sorgere».</Content>
+				<Br />
+				<Content>Quel bambino nato a Betlemme è la luce del mondo, nato povero, amico degli emarginati e dei peccatori, pronto a donare la vita sulla croce per la salvezza del mondo.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>La via della Pace si attua tornando alla giustizia di Dio</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, condividendo con i poveri, non tenendo nulla di ciò che ci separa da loro. Il popolo dei poveri va consolato restituendo ciò che è stato sottratto loro. </Content>
+				<Br />
+				<Content>Bisogna restituire il dono della vita, la gioia di un padre e di una madre, di una famiglia, di poter accedere all’educazione, alla possibilità di lavorare, alle cure sanitarie, la libertà di esprimere il proprio credo religioso nel rispetto e nell’integrazione.</Content>
+				<Br />
+				<Content>Sono necessari profeti che siano voce di chi non ha voce, che sappiano rimuovere le cause che producono l’emarginazione, che paghino di persona e scelgano di ripartire dagli ultimi.</Content>
+				<Br />
+				<Content>Dice il profeta Isaia: «Per amore di Sion non tacerò, per amore di Gerusalemme non mi concederò riposo, finché non sorga come aurora la sua giustizia e la sua salvezza non risplenda come lampada. Allora le genti vedranno la tua giustizia, tutti i re la tua gloria».</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Questa umanità tecnologica ma triste, depressa, ha bisogno di un cambio di marcia</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, una estrema necessità di vino nuovo, l’urgenza di ripartire dalla legge di Dio, dalla parola del Signore che vuole darci la felicità, «perché la gioia del Signore è la vostra forza».</Content>
+				<Br />
+				<Content>Siamo complementari, fratelli e sorelle tutti necessari, ma nel corpo sociale le membra più deboli sono le più necessarie e quelle a cui conferire i maggiori onori, afferma San Paolo. Un popolo è tale in quanto sta al passo dei più poveri, dice il servo di Dio don Oreste Benzi. </Content>
+				<Br />
+				<Content>Gesù ha fatto una scelta: «Venne a Nàzaret, dove era cresciuto, e secondo il suo solito, di sabato, entrò nella sinagoga e si alzò a leggere. Gli fu dato il rotolo del profeta Isaìa; aprì il rotolo e trovò il passo dove era scritto: “Lo Spirito del Signore è sopra di me; per questo mi ha consacrato con l’unzione e mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione e ai ciechi la vista; a rimettere in libertà gli oppressi, a proclamare l’anno di grazia del Signore”.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Ognuno di noi è una meraviglia agli occhi del buon Dio, nessuno si ritenga uno scarto</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>: «Prima di formarti nel grembo materno, ti ho conosciuto, prima che tu uscissi alla luce, ti ho consacrato; ti ho stabilito profeta delle nazioni».</Content>
+				<Br />
+				<Content>Tutti possiamo esercitare la profezia della carità, dell’amore: amare sempre, per primi, gratuitamente, amare i nemici, perdonare, donare ai poveri. Sì, questo tutti possono viverlo secondo il dono della grazia ricevuta. </Content>
+				<Br />
+				<Content>Tanto più siamo piccoli, umili, tanto più il Signore può operare cose grandi nella nostra vita a servizio del bene comune. </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="RightAlign">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">142</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" Capitalization="SmallCaps">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>	Giovanni Paolo Ramonda</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" ParagraphBreakType="NextColumn">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">142</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SALMI" FontStyle="Regular" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>INTRODUZIONE ALLA PAROLA</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>La parola di Dio</Content>
+				<Br />
+				<Content>nella vita della Chiesa</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">15</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">12</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" FirstLineIndent="8.503937007874017" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Siamo a più di 50 anni dalla promulgazione della Costituzione dogmatica </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Dei Verbum</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> del Concilio ecumenico Vaticano II (18 novembre 1965), un documento fondamentale per la riscoperta e la valorizzazione della Parola nella vita del cristiano e della Chiesa. Suggestiva la dichiarazione conciliare che descrive Dio come un amico che parla ad amici. «Piacque a Dio nella sua bontà e sapienza rivelarsi in persona e manifestare il mistero della sua volontà (cfr. Ef 1,9), mediante il quale gli uomini per mezzo di Cristo, Verbo fatto carne, hanno accesso al Padre nello Spirito Santo e sono resi partecipi della divina natura (cfr. Ef 2,18; 2 Pt 1,4). Con questa Rivelazione infatti Dio invisibile (cfr. Col 1,15; 1 Tm 1,17) nel suo grande amore parla agli uomini come ad amici (cfr. Es 33,11; Gv 15,14-15) e si intrattiene con essi (cfr. Bar 3,38), per invitarli e ammetterli alla comunione con sé» (DV, 2). </Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Da sempre Dio ha parlato agli uomini</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>: Abramo… Mosè. Nessun uomo aveva mai parlato con Dio faccia a faccia come Mosè. Ha detto, a questo proposito, Benedetto XVI nell’udienza del 16 gennaio 2013: «Nell’Antico Testamento c’è una figura a cui è collegato in modo del tutto speciale il tema del “volto di Dio”; si tratta di Mosé, colui che Dio sceglie per liberare il popolo dalla schiavitù d’Egitto, donargli la Legge dell’alleanza e guidarlo alla Terra promessa. Ebbene, nel capitolo 33 del </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Libro dell’Esodo</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, si dice che Mosé aveva un rapporto stretto e confidenziale con Dio: “Il Signore parlava con Mosè faccia a faccia, come uno parla con il proprio amico” (v. 11). In forza di questa confidenza, Mosè chiede a Dio: “Mostrami la tua gloria!”, e la risposta di Dio è chiara: “Farò passare davanti a te tutta la mia bontà e proclamerò il mio nome… Ma tu non potrai vedere il mio volto, perché nessun uomo può vedermi e restare vivo… Ecco un luogo vicino a me… Tu vedrai le mie spalle, ma il mio volto non si può vedere” (vv. 18-23). Da un lato, allora, c’è il dialogo faccia a faccia come tra amici, ma dall’altro c’è l’impossibilità, in questa vita, di vedere il volto di Dio, che rimane nascosto; la visione è limitata. I Padri dicono che queste parole, “tu puoi solo vedere le mie spalle”, vogliono dire: tu puoi solo seguire Cristo e seguendo vedi dalle spalle il mistero di Dio; Dio si può seguire vedendo le sue spalle.»</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Ora, in Cristo, Dio ha parlato a noi come ad amici</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, non come a subalterni. Ciò significa dialogo, vicinanza, prossimità di Dio all’uomo. La lettera agli Ebrei è perentoria: «Dio, che molte volte e in diversi modi nei tempi antichi aveva parlato ai padri per mezzo dei profeti, ultimamente, in questi giorni, ha parlato a noi per mezzo del Figlio, che ha stabilito erede di tutte le cose e mediante il quale ha fatto anche il mondo» (1,1-2). (…) «Questa condiscendenza di Dio – commenta l’Esortazione apostolica di Benedetto XVI </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Verbum Domin</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>i – si compie in modo insuperabile nell’incarnazione del Verbo. La Parola eterna che si esprime nella creazione e che si comunica nella storia della salvezza è diventata in Cristo un uomo, “nato da donna” (Gal 4,4). La Parola qui non si esprime innanzitutto in un discorso, in concetti o regole. Qui siamo posti di fronte alla persona stessa di Gesù. La sua storia unica e singolare è la Parola definitiva che Dio dice all’umanità (Cfr n.11).</Content>
+				<Br />
+				<Content> </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>A esprimere questa centralità della Persona</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>di Gesù nella Rivelazione divina</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, concorre anche la tradizione antica che parla del </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Verbum abbreviatum</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>. «La tradizione patristica e medievale, nel contemplare questa “Cristologia della Parola”, ha utilizzato un’espressione suggestiva: </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>il Verbo si è abbreviato</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>. I Padri della Chiesa, nella loro traduzione greca dell’Antico Testamento, trovavano una parola del profeta Isaia, che anche san Paolo cita per mostrare come le vie nuove di Dio fossero già preannunciate nell’Antico Testamento. Lì si leggeva: “Dio ha reso breve la sua Parola, l’ha abbreviata” (Is 10,23; Rm 9,28) … Il Figlio stesso è la Parola, è il </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Logos</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>: la Parola eterna si è fatta piccola – così piccola da entrare in una mangiatoia. Si è fatta bambino, affinché la Parola diventi per noi afferrabile». Adesso, la Parola non solo è udibile, non solo possiede una voce, ora la Parola ha un </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>volto</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, che dunque possiamo vedere: Gesù di Nazareth» (</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Verbum Domini</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, 12). </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98" Tracking="-20">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Anche la liturgia esprime questa centralità. Lo fa con la venerazione del libro dei vangeli: quando si proclama il vangelo, infatti, si sta in piedi, si portano i ceri e l’incenso, ci si volta verso l’ambone e, al termine della proclamazione, il vangelo nelle mani del celebrante può essere usato per benedire l’assemblea.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>La Parola esige poi una lettura orante.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> Nella tradizione della Chiesa questo si è attuato con la </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Lectio divina</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, che, grazie ad alcuni pastori e maestri di vita spirituale, è ritornata in auge nella vita della Chiesa. La </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Dei Verbum</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, ne parla esplicitamente: «Il santo Concilio esorta con ardore e insistenza tutti i fedeli, soprattutto i religiosi, ad apprendere “la sublime scienza di Gesù Cristo” (Fil 3,8) con la frequente lettura delle divine Scritture. “L&apos;ignoranza delle Scritture, infatti, è ignoranza di Cristo”. Si accostino essi volentieri al sacro testo, sia per mezzo della sacra liturgia, che è impregnata di parole divine, sia mediante la pia lettura, sia per mezzo delle iniziative adatte a tale scopo e di altri sussidi (…). Si ricordino però che la lettura della sacra Scrittura dev&apos;essere accompagnata dalla preghiera, affinché si stabilisca il dialogo tra Dio e l&apos;uomo; poiché “quando preghiamo, parliamo con lui; lui ascoltiamo, quando leggiamo gli oracoli divini”» (n. 25). </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Gli fa eco la </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Verbum Domini</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>: «Come dice sant’Agostino: “La tua preghiera è la tua parola rivolta a Dio. Quando leggi è Dio che ti parla; quando preghi sei tu che parli a Dio”. Origene, uno dei maestri in questa lettura della Bibbia, sostiene che l’intelligenza delle Scritture richieda, più ancora che lo studio, l’intimità con Cristo e la preghiera. Egli è convinto, infatti, che la via privilegiata per conoscere Dio sia l’amore, e che non si dia un’autentica </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>scientia Christi</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> senza innamorarsi di Lui. Nella </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Lettera a Gregorio</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> il grande teologo alessandrino raccomanda: “Dedicati alla </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>lectio</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> delle divine Scritture; applicati a questo con perseveranza. Impegnati nella lectio con l’intenzione di credere e di piacere a Dio. Se durante la </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>lectio</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> ti trovi davanti a una porta chiusa, bussa e te l’aprirà quel custode, del quale Gesù ha detto: “Il guardiano gliela aprirà”. Applicandoti così alla </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>lectio divina</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, cerca con lealtà e fiducia incrollabile in Dio il senso delle Scritture divine, che in esse si cela con grande ampiezza. Non ti devi però accontentare di bussare e di cercare: per comprendere le cose di Dio ti è assolutamente necessaria l’</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>oratio</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>. Proprio per esortarci ad essa il Salvatore ci ha detto non soltanto: “Cercate e troverete”, e “Bussate e vi sarà aperto”, ma ha aggiunto: “Chiedete e riceverete”» (n. 86).</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>È inesauribile la Parola di Dio. Chi è capace di comprenderne tutta la ricchezza?</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, si chiede sant&apos;Efrem, dottore della Chiesa e innamorato della Scrittura. Egli paragona la Parola a una fonte che offre sempre acqua fresca, a un albero di vita che porge frutti benedetti, a una roccia spaccata che nel deserto della vita fa uscire acqua abbondante. Nella Bibbia essa è paragonata al pane che dona l’immortalità a chi se ne ciba (Cfr Gv 6,50). La Parola è come un fuoco (Cfr Ger 23,29), è la luce che illumina il cammino (Cfr Sal 119, 105); è dolce come il miele e più preziosa dell’oro (Salmo 19, 10). Assomiglia anche a un martello che spezza il sasso (Cfr Ger 23, 29); è come una spada tagliente (Cfr Eb 4, 12). La parola è il seme buttato dal seminatore nel campo per crescere (Mc 4, 14), ma anche seme incorruttibile (1 Pt 1,23). </Content>
+				<Br />
+				<Content>Mi colpisce l’immagine che usa uno scrittore moderno (G. Bernanos): «La parola di Dio è come un carbone ardente». E si chiede, chiede a tutti noi: «Tu vuoi prenderla con le molle per paura di bruciarti? Io voglio prenderla a piene mani e voglio sentirla per il male che mi fa dentro». </Content>
+				<Br />
+				<Content>Siamo certi che accogliendo la durezza della Parola, a volte anche segnata dall’amarezza, poi produrrà tanta dolcezza come ci ricorda il libro dell’Apocalisse. «Poi la voce che avevo udito dal cielo mi parlò di nuovo: “Va&apos;, prendi il libro aperto dalla mano dell&apos;angelo che sta in piedi sul mare e sulla terra”. Allora mi avvicinai all&apos;angelo e lo pregai di darmi il piccolo libro. Ed egli mi disse: “Prendilo e divoralo; ti riempirà di amarezza le viscere, ma in bocca ti sarà dolce come il miele”. Presi quel piccolo libro dalla mano dell&apos;angelo e lo divorai; in bocca lo sentii dolce come il miele, ma come l&apos;ebbi inghiottito ne sentii nelle viscere tutta l&apos;amarezza» (Ap 10, 9-10).</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">159</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">16</Leading>
+					<AppliedFont type="string">Zapf Dingbats</AppliedFont>
+				</Properties>
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" Capitalization="SmallCaps">
+				<Properties>
+					<Leading type="unit">16</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Mons. Douglas Regattieri</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">16</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>                                                        </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" FirstLineIndent="8.503937007874017" Justification="LeftJustified">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">159</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>	Vescovo di Cesena-Sarsina</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

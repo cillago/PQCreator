@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0">
+	<Story Self="u1b8" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Anno XVIII - N. 1 - GEN-FEB 2019</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">4</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Direttore responsabile: Giovanni Paolo Ramonda</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" HorizontalScale="90">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Commenti alle letture tratti dagli scritti e dalle meditazioni di don Oreste Benzi</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Content>Ricerca dei testi e note biografiche dei santi a cura di Viviana Viali, Chiara Vitale e Chiara Bonetto.</Content>
+				<Br />
+				<Content>Grafica e impaginazione: Michela Zamboni</Content>
+				<Br />
+				<Content>In copertina: particolare de “Il volto di Cristo” di Dimer Cavatton</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">4</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Per i testi liturgici dei giorni feriali e delle feste dei santi:</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Dal Vangelo secondo" FontStyle="Regular" PointSize="7" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>©2009 Fondazione di Religione Santi Francesco d&apos;Assisi e Caterina da Siena</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Dal Vangelo secondo" FontStyle="Regular" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Content>Per i testi liturgici dei giorni festivi:</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Dal Vangelo secondo" FontStyle="Regular" PointSize="7" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>©2007 Fondazione di Religione Santi Francesco d&apos;Assisi e Caterina da Siena</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Dal Vangelo secondo" FontStyle="Regular" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Content>Per i testi di don Oreste Benzi: </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Dal Vangelo secondo" FontStyle="Regular" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>©2019 Associazione Comunità Papa Giovanni XXIII</Content>
+				<Br />
+				<Content>Editore Sempre - Via Mameli, 1 - 47921 Rimini</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">4</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>REDAZIONE: Via Argine 4 - 37045 Legnago (VR) - Tel. 0442 25174</Content>
+				<Br />
+				<Content>Fax 0442 25132 - e-mail: sempreredazione@apg23.org - www.apg23.org</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">4</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>STAMPA: CASMA s.r.l. - Via B. Provaglia 3 - 40138 Bologna</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">4</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>UFFICIO RELAZIONI CON GLI ABBONATI:</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Via Argine 4 - 37045 Legnago (VR)</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Content>Tel. 0442 626738 - Fax 0442 25132 </Content>
+				<Br />
+				<Content>e-mail: sempreabbonamenti@apg23.org</Content>
+				<Br />
+				<Content>dal Lunedì al Venerdì ore 9.30 - 13.30</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="8">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Abbonamento annuale: € 17,00</Content>
+				<Br />
+				<Content>(Per abbonarsi vedere nelle ultime pagine)</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">4</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+				<Properties>
+					<Leading type="unit">9</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>SEDE LEGALE:</Content>
+				<Br />
+				<Content>Associazione Comunità Papa Giovanni XXIII</Content>
+				<Br />
+				<Content>Editore Sempre - Via Mameli, 1</Content>
+				<Br />
+				<Content>47921 Rimini</Content>
+				<Br />
+				<Content>Iscrizione al ROC n.1370.</Content>
+				<Br />
+				<Content>Registrazione presso il Tribunale </Content>
+				<Br />
+				<Content>di Forlì n. 4/2002.</Content>
+				<Br />
+				<Content>IVA assolta dall’editore ai sensi art.1 </Content>
+				<Br />
+				<Content>decreto Ministero delle Finanze </Content>
+				<Br />
+				<Content>29/12/1989</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

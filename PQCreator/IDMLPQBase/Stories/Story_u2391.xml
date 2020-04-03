@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0">
+	<Story Self="u2391" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" HyphenationZone="14.173228346456694" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10.5">
+				<Properties>
+					<Leading type="unit">11.5</Leading>
+				</Properties>
+				<Content>Preghiera </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" HyphenationZone="14.173228346456694" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10.5">
+				<Properties>
+					<Leading type="unit">11.5</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" HyphenationZone="14.173228346456694" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10.5">
+				<Properties>
+					<Leading type="unit">11.5</Leading>
+				</Properties>
+				<Content>O Trinità Santissima, Padre, Figlio, Spirito Santo, </Content>
+				<Br />
+				<Content>Ti adoriamo, Ti lodiamo e Ti ringraziamo </Content>
+				<Br />
+				<Content>per aver donato alla Chiesa il sacerdote, </Content>
+				<Br />
+				<Content>don Oreste Benzi. </Content>
+				<Br />
+				<Content>In lui hai fatto risplendere la forte, fedele, </Content>
+				<Br />
+				<Content>premurosa tenerezza della Tua paternità, </Content>
+				<Br />
+				<Content>la gloria della Croce di Cristo </Content>
+				<Br />
+				<Content>e lo splendore dello Spirito d’amore. </Content>
+				<Br />
+				<Content>Egli, confidando nella Tua infinita provvidente </Content>
+				<Br />
+				<Content>misericordia </Content>
+				<Br />
+				<Content>e nella materna intercessione di Maria, </Content>
+				<Br />
+				<Content>è stato per tanti Tuoi figli e figlie immagine viva </Content>
+				<Br />
+				<Content>di Gesù Buon Pastore; </Content>
+				<Br />
+				<Content>ha insegnato con l’esempio a vivere </Content>
+				<Br />
+				<Content>secondo il comandamento nuovo della carità </Content>
+				<Br />
+				<Content>e ha indicato la santità come misura </Content>
+				<Br />
+				<Content>della vita cristiana </Content>
+				<Br />
+				<Content>e strada per giungere alla beata ed eterna </Content>
+				<Br />
+				<Content>comunione con Te. </Content>
+				<Br />
+				<Content>Concedici per sua intercessione, </Content>
+				<Br />
+				<Content>secondo la Tua volontà, </Content>
+				<Br />
+				<Content>la grazia che imploriamo, </Content>
+				<Br />
+				<Content>nella speranza che nella Tua santa Chiesa </Content>
+				<Br />
+				<Content>egli sia esempio di santità </Content>
+				<Br />
+				<Content>e nella Comunione dei Tuoi Santi </Content>
+				<Br />
+				<Content>per l’edificazione del Tuo Regno. </Content>
+				<Br />
+				<Content>Amen. </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10.5">
+				<Properties>
+					<Leading type="unit">8</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="8">
+				<Properties>
+					<Leading type="unit">11.5</Leading>
+				</Properties>
+				<Content>Con approvazione ecclesiastica</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10.5">
+				<Properties>
+					<Leading type="unit">11.5</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

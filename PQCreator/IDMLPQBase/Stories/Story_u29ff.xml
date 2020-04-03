@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0">
+	<Story Self="u29ff" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" HyphenationZone="14.173228346456694" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>Don Oreste Benzi </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>è stato promotore di una catechesi innovativa fin da quando, giovane sacerdote, era insegnante di religione alle scuole superiori, direttore spirituale in seminario e assistente diocesano della gioventù di Azione Cattolica. Nel 1968 ha dato vita alla Comunità Papa Giovanni XXIII, oggi Associazione internazionale di diritto pontificio impegnata a fianco dei poveri e degli emarginati in 42 Paesi del mondo. Cinque anni dopo la sua morte è stata avviata per lui la Causa di beatificazione, tuttora in corso.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>Ulteriori info al sito </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>www.fondazionedonorestebenzi.org</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

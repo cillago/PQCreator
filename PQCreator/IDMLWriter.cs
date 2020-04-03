@@ -6,6 +6,7 @@ using System.IO;
 using System.Globalization;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Web;
 
 namespace PQCreator
 {
@@ -131,7 +132,8 @@ namespace PQCreator
 
         private string ModifyNotXML(string riga)
         {
-            return riga.Replace("<<", "«").Replace(">>", "»");
+            return HttpUtility.HtmlEncode(riga);
+           // return riga.Replace("<<", "«").Replace(">>", "»");
 
         }
 

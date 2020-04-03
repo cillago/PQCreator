@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="14.0(130)" ?>
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0" Self="d" StoryList="u15c u172 u2b4 u199 u1b8 u1da u23ae u2353 u2373 u231f u2335 u2391 u29ff u2a38 u2a74 u92" Name="PQ GEN-FEB 2019.indd" ZeroPoint="0 0" ActiveLayer="ub4" CMYKProfile="$ID/" RGBProfile="$ID/" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
+	<Properties>
+		<Label>
+			<KeyValuePair Key="kAdobeDPS_Version" Value="2" />
+		</Label>
+	</Properties>
+	<Language Self="Language/$ID/Italian" Name="$ID/Italian" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/Italian" SublanguageName="$ID/" Id="281" HyphenationVendor="Proximity" SpellingVendor="Proximity" />
+	<idPkg:Graphic src="Resources/Graphic.xml" />
+	<idPkg:Fonts src="Resources/Fonts.xml" />
+	<KinsokuTable Self="KinsokuTable/$ID/kHardKinsokuName" Name="$ID/kHardKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSoftKinsokuName" Name="$ID/kSoftKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kKoreanKinsokuName" Name="$ID/kKoreanKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSimpChineseKinsokuName" Name="$ID/kSimpChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kTradChineseKinsokuName" Name="$ID/kTradChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/kHardKinsokuName" Name="kHardKinsokuName" CantBeginLineChars="!),.:;?]}¢—’”‰℃℉、。々〉》」』】〕〟ぁぃぅぇぉっゃゅょゎ゛゜ゝゞァィゥェォッャュョヮヵヶ・ーヽヾ！％），．：；？］｝" CantEndLineChars="([{£§‘“〈《「『【〒〔〝＃＄（＠［｛￥" HangingPunctuationChars="、。，．" CantBeSeparatedChars="—‥…" />
+	<KinsokuTable Self="KinsokuTable/Word_Kinsoku" Name="Word_Kinsoku" CantBeginLineChars="" CantEndLineChars="" HangingPunctuationChars="" CantBeSeparatedChars="" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName1" Name="$ID/kMojikumiDefaultName1" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName2" Name="$ID/kMojikumiDefaultName2" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName3" Name="$ID/kMojikumiDefaultName3" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName4" Name="$ID/kMojikumiDefaultName4" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName5" Name="$ID/kMojikumiDefaultName5" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName6" Name="$ID/kMojikumiDefaultName6" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName7" Name="$ID/kMojikumiDefaultName7" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName8" Name="$ID/kMojikumiDefaultName8" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName9" Name="$ID/kMojikumiDefaultName9" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName10" Name="$ID/kMojikumiDefaultName10" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName11" Name="$ID/kMojikumiDefaultName11" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName12" Name="$ID/kMojikumiDefaultName12" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName13" Name="$ID/kMojikumiDefaultName13" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName14" Name="$ID/kMojikumiDefaultName14" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName15" Name="$ID/kMojikumiDefaultName15" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName16" Name="$ID/kMojikumiDefaultName16" />
+	<idPkg:Styles src="Resources/Styles.xml" />
+	<NumberingList Self="NumberingList/$ID/[Default]" Name="$ID/[Default]" ContinueNumbersAcrossStories="false" ContinueNumbersAcrossDocuments="false" />
+	<NumberingList Self="NumberingList/Elenco importato da Word 1" Name="Elenco importato da Word 1" ContinueNumbersAcrossStories="false" ContinueNumbersAcrossDocuments="false" />
+	<NamedGrid Self="NamedGrid/$ID/[Page Grid]" Name="$ID/[Page Grid]">
+		<GridDataInformation FontStyle="Regular" PointSize="9.21259842519685" CharacterAki="0" LineAki="6.909448818897637" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+			<Properties>
+				<AppliedFont type="string">Times</AppliedFont>
+			</Properties>
+		</GridDataInformation>
+	</NamedGrid>
+	<ConditionalTextPreference ShowConditionIndicators="ShowIndicators" ActiveConditionSet="n" />
+	<idPkg:Preferences src="Resources/Preferences.xml" />
+	<EndnoteOption EndnoteTitle="Note di chiusura" EndnoteTitleStyle="ParagraphStyle/$ID/NormalParagraphStyle" StartEndnoteNumberAt="1" EndnoteMarkerStyle="CharacterStyle/$ID/[No character style]" EndnoteTextStyle="ParagraphStyle/$ID/NormalParagraphStyle" EndnoteSeparatorText="&#x9;" EndnotePrefix="" EndnoteSuffix="">
+		<Properties>
+			<EndnoteNumberingStyle type="enumeration">Arabic</EndnoteNumberingStyle>
+			<RestartEndnoteNumbering type="enumeration">Continuous</RestartEndnoteNumbering>
+			<EndnoteMarkerPositioning type="enumeration">SuperscriptMarker</EndnoteMarkerPositioning>
+			<ScopeValue type="enumeration">EndnoteDocumentScope</ScopeValue>
+			<FrameCreateOption type="enumeration">NewPage</FrameCreateOption>
+			<ShowEndnotePrefixSuffix type="enumeration">NoPrefixSuffix</ShowEndnotePrefixSuffix>
+		</Properties>
+	</EndnoteOption>
+	<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+	<LinkedStoryOption UpdateWhileSaving="false" WarnOnUpdateOfEditedStory="true" RemoveForcedLineBreaks="false" ApplyStyleMappings="false" />
+	<LinkedPageItemOption UpdateLinkWhileSaving="false" WarnOnUpdateOfEditedPageItem="true" PreserveSizeAndShape="false" PreserveAppearance="false" PreserveInteractivity="false" PreserveFrameContent="false" PreserveOthers="false" />
+	<WatermarkPreference WatermarkVisibility="false" WatermarkDoPrint="false" WatermarkDrawInBack="true" WatermarkText="" WatermarkFontFamily="Minion Pro" WatermarkFontStyle="Regular" WatermarkFontPointSize="48" WatermarkOpacity="50" WatermarkRotation="0" WatermarkHorizontalPosition="WatermarkHCenter" WatermarkHorizontalOffset="0" WatermarkVerticalPosition="WatermarkVCenter" WatermarkVerticalOffset="0">
+		<Properties>
+			<WatermarkFontColor type="enumeration">Blue</WatermarkFontColor>
+		</Properties>
+	</WatermarkPreference>
+	<TaggedPDFPreference StructureOrder="UseXMLStructure" />
+	<AdjustLayoutPreference EnableAdjustLayout="true" AllowLockedObjectsToAdjust="true" AllowFontSizeAndLeadingAdjustment="false" ImposeFontSizeRestriction="false" MinimumFontSize="6" MaximumFontSize="324" EnableAutoAdjustMargins="false" />
+	<HTMLFXLExportPreference EpubPageRange="" EpubPageRangeFormat="ExportAllPages" />
+	<PublishExportPreference PublishCover="FirstPage" CoverImageFile="" PublishPageRange="" PublishPageRangeFormat="ExportAllPages" ImageConversion="Automatic" ImageExportResolution="Ppi96" PublishDescription="" PublishFileName="" PublishFormat="PublishByPages" CoverPage="$ID/" GIFOptionsPalette="AdaptivePalette" JPEGOptionsQuality="High" PublishPdf="false" />
+	<idPkg:Tags src="XML/Tags.xml" />
+	<Layer Self="ub4" Name="Livello 1" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">LightBlue</LayerColor>
+		</Properties>
+	</Layer>
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_ub5.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u154.xml" />
+	<idPkg:Spread src="Spreads/Spread_u187.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1ae.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1ef.xml" />
+	<idPkg:Spread src="Spreads/Spread_u28bd.xml" />
+	<idPkg:Spread src="Spreads/Spread_u239.xml" />
+	<idPkg:Spread src="Spreads/Spread_u26e.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2a1.xml" />
+	<idPkg:Spread src="Spreads/Spread_u29e6.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2df.xml" />
+	<idPkg:Spread src="Spreads/Spread_u312.xml" />
+	<idPkg:Spread src="Spreads/Spread_u345.xml" />
+	<idPkg:Spread src="Spreads/Spread_u37f.xml" />
+	<idPkg:Spread src="Spreads/Spread_u3b2.xml" />
+	<idPkg:Spread src="Spreads/Spread_u3e5.xml" />
+	<idPkg:Spread src="Spreads/Spread_u420.xml" />
+	<idPkg:Spread src="Spreads/Spread_u453.xml" />
+	<idPkg:Spread src="Spreads/Spread_u48d.xml" />
+	<idPkg:Spread src="Spreads/Spread_u4c0.xml" />
+	<idPkg:Spread src="Spreads/Spread_u4fb.xml" />
+	<idPkg:Spread src="Spreads/Spread_u52e.xml" />
+	<idPkg:Spread src="Spreads/Spread_u561.xml" />
+	<idPkg:Spread src="Spreads/Spread_u59b.xml" />
+	<idPkg:Spread src="Spreads/Spread_u5ce.xml" />
+	<idPkg:Spread src="Spreads/Spread_u601.xml" />
+	<idPkg:Spread src="Spreads/Spread_u63b.xml" />
+	<idPkg:Spread src="Spreads/Spread_u66e.xml" />
+	<idPkg:Spread src="Spreads/Spread_u6a1.xml" />
+	<idPkg:Spread src="Spreads/Spread_u6d4.xml" />
+	<idPkg:Spread src="Spreads/Spread_u710.xml" />
+	<idPkg:Spread src="Spreads/Spread_u743.xml" />
+	<idPkg:Spread src="Spreads/Spread_u781.xml" />
+	<idPkg:Spread src="Spreads/Spread_u7b4.xml" />
+	<idPkg:Spread src="Spreads/Spread_u7e7.xml" />
+	<idPkg:Spread src="Spreads/Spread_u822.xml" />
+	<idPkg:Spread src="Spreads/Spread_u855.xml" />
+	<idPkg:Spread src="Spreads/Spread_u888.xml" />
+	<idPkg:Spread src="Spreads/Spread_u8c3.xml" />
+	<idPkg:Spread src="Spreads/Spread_u8f6.xml" />
+	<idPkg:Spread src="Spreads/Spread_u930.xml" />
+	<idPkg:Spread src="Spreads/Spread_u963.xml" />
+	<idPkg:Spread src="Spreads/Spread_u996.xml" />
+	<idPkg:Spread src="Spreads/Spread_u9d2.xml" />
+	<idPkg:Spread src="Spreads/Spread_ua05.xml" />
+	<idPkg:Spread src="Spreads/Spread_ua41.xml" />
+	<idPkg:Spread src="Spreads/Spread_ua74.xml" />
+	<idPkg:Spread src="Spreads/Spread_uaa7.xml" />
+	<idPkg:Spread src="Spreads/Spread_uae2.xml" />
+	<idPkg:Spread src="Spreads/Spread_ub15.xml" />
+	<idPkg:Spread src="Spreads/Spread_ub48.xml" />
+	<idPkg:Spread src="Spreads/Spread_ub82.xml" />
+	<idPkg:Spread src="Spreads/Spread_ubb5.xml" />
+	<idPkg:Spread src="Spreads/Spread_ubef.xml" />
+	<idPkg:Spread src="Spreads/Spread_uc22.xml" />
+	<idPkg:Spread src="Spreads/Spread_uc55.xml" />
+	<idPkg:Spread src="Spreads/Spread_uc92.xml" />
+	<idPkg:Spread src="Spreads/Spread_ucc5.xml" />
+	<idPkg:Spread src="Spreads/Spread_ucf8.xml" />
+	<idPkg:Spread src="Spreads/Spread_ud36.xml" />
+	<idPkg:Spread src="Spreads/Spread_ud69.xml" />
+	<idPkg:Spread src="Spreads/Spread_ud9c.xml" />
+	<idPkg:Spread src="Spreads/Spread_udda.xml" />
+	<idPkg:Spread src="Spreads/Spread_ue0d.xml" />
+	<idPkg:Spread src="Spreads/Spread_ue4a.xml" />
+	<idPkg:Spread src="Spreads/Spread_ue7d.xml" />
+	<idPkg:Spread src="Spreads/Spread_ueb0.xml" />
+	<idPkg:Spread src="Spreads/Spread_ueeb.xml" />
+	<idPkg:Spread src="Spreads/Spread_uf1e.xml" />
+	<idPkg:Spread src="Spreads/Spread_uf59.xml" />
+	<idPkg:Spread src="Spreads/Spread_uf8c.xml" />
+	<idPkg:Spread src="Spreads/Spread_ufc7.xml" />
+	<idPkg:Spread src="Spreads/Spread_uffa.xml" />
+	<idPkg:Spread src="Spreads/Spread_u102d.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1069.xml" />
+	<idPkg:Spread src="Spreads/Spread_u109c.xml" />
+	<idPkg:Spread src="Spreads/Spread_u10d7.xml" />
+	<idPkg:Spread src="Spreads/Spread_u110a.xml" />
+	<idPkg:Spread src="Spreads/Spread_u113d.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1177.xml" />
+	<idPkg:Spread src="Spreads/Spread_u11aa.xml" />
+	<idPkg:Spread src="Spreads/Spread_u11e4.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1217.xml" />
+	<idPkg:Spread src="Spreads/Spread_u124a.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1287.xml" />
+	<idPkg:Spread src="Spreads/Spread_u12ba.xml" />
+	<idPkg:Spread src="Spreads/Spread_u12ed.xml" />
+	<idPkg:Spread src="Spreads/Spread_u132b.xml" />
+	<idPkg:Spread src="Spreads/Spread_u135e.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1391.xml" />
+	<idPkg:Spread src="Spreads/Spread_u13cf.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1402.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1435.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1472.xml" />
+	<idPkg:Spread src="Spreads/Spread_u14a5.xml" />
+	<idPkg:Spread src="Spreads/Spread_u14e2.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1515.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1548.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1585.xml" />
+	<idPkg:Spread src="Spreads/Spread_u15c0.xml" />
+	<idPkg:Spread src="Spreads/Spread_u15f3.xml" />
+	<idPkg:Spread src="Spreads/Spread_u162f.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1662.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1695.xml" />
+	<idPkg:Spread src="Spreads/Spread_u16d0.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1703.xml" />
+	<idPkg:Spread src="Spreads/Spread_u173d.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1770.xml" />
+	<idPkg:Spread src="Spreads/Spread_u17aa.xml" />
+	<idPkg:Spread src="Spreads/Spread_u17dd.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1810.xml" />
+	<idPkg:Spread src="Spreads/Spread_u184d.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1880.xml" />
+	<idPkg:Spread src="Spreads/Spread_u18be.xml" />
+	<idPkg:Spread src="Spreads/Spread_u18f1.xml" />
+	<idPkg:Spread src="Spreads/Spread_u192f.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1962.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1995.xml" />
+	<idPkg:Spread src="Spreads/Spread_u19d2.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1a05.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1a40.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1a73.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1aae.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1ae1.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1b1c.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1b4f.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1b82.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1bb5.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1bf1.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1c24.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1c5f.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1c92.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1ccc.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1cff.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1d39.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1d6c.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1d9f.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1ddc.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1e0f.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1e42.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1e81.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1eb5.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1ef3.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1f26.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1f59.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1f96.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1fc9.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2004.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2037.xml" />
+	<idPkg:Spread src="Spreads/Spread_u206a.xml" />
+	<idPkg:Spread src="Spreads/Spread_u20a5.xml" />
+	<idPkg:Spread src="Spreads/Spread_u20d8.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2113.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2146.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2179.xml" />
+	<idPkg:Spread src="Spreads/Spread_u21b5.xml" />
+	<idPkg:Spread src="Spreads/Spread_u21e8.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2223.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2256.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2290.xml" />
+	<idPkg:Spread src="Spreads/Spread_u234a.xml" />
+	<idPkg:Spread src="Spreads/Spread_u23a6.xml" />
+	<idPkg:Spread src="Spreads/Spread_u2a18.xml" />
+	<Section Self="uae" Length="320" Name="" ContinueNumbering="true" IncludeSectionPrefix="false" Marker="" PageStart="u18c" SectionPrefix="" AlternateLayoutLength="320" AlternateLayout="Letter V">
+		<Properties>
+			<PageNumberStyle type="enumeration">Arabic</PageNumberStyle>
+		</Properties>
+	</Section>
+	<DocumentUser Self="dDocumentUser0" UserName="$ID/Unknown User Name">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<DocumentUser Self="dDocumentUser1" UserName="$ID/Unknown User Name">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<CrossReferenceFormat Self="u2447" Name="Paragrafo intero e numero pagina" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u2447BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2447BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2447BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; a pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2447BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u2448" Name="Paragrafo intero" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u2448BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2448BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2448BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u2449" Name="Testo paragrafo e numero pagina" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u2449BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2449BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2449BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; a pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u2449BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u244a" Name="Testo paragrafo" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u244aBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244aBuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244aBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u244b" Name="Numero paragrafo e numero pagina" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u244bBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244bBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" a pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244bBuildingBlock2" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u244c" Name="Numero paragrafo" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u244cBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u244d" Name="Nome e numero pagina ancoraggio testo" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u244dBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244dBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244dBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; a pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244dBuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u244e" Name="Nome ancoraggio testo" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u244eBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244eBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244eBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u244f" Name="Numero pagina" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u244fBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u244fBuildingBlock1" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<idPkg:BackingStory src="XML/BackingStory.xml" />
+	<idPkg:Story src="Stories/Story_u2a74.xml" />
+	<idPkg:Story src="Stories/Story_u2a38.xml" />
+	<idPkg:Story src="Stories/Story_u29ff.xml" />
+	<idPkg:Story src="Stories/Story_u2391.xml" />
+	<idPkg:Story src="Stories/Story_u2335.xml" />
+	<idPkg:Story src="Stories/Story_u231f.xml" />
+	<idPkg:Story src="Stories/Story_u2373.xml" />
+	<idPkg:Story src="Stories/Story_u2353.xml" />
+	<idPkg:Story src="Stories/Story_u23ae.xml" />
+	<idPkg:Story src="Stories/Story_u1da.xml" />
+	<idPkg:Story src="Stories/Story_u1b8.xml" />
+	<idPkg:Story src="Stories/Story_u199.xml" />
+	<idPkg:Story src="Stories/Story_u2b4.xml" />
+	<idPkg:Story src="Stories/Story_u172.xml" />
+	<idPkg:Story src="Stories/Story_u15c.xml" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Tempio_di_Gerusalemme" Name="http://it.wikipedia.org/wiki/Tempio_di_Gerusalemme" DestinationURL="http://it.wikipedia.org/wiki/Tempio_di_Gerusalemme" Hidden="false" DestinationUniqueKey="40276" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Tempio_di_Gerusalemme 23" Name="http://it.wikipedia.org/wiki/Tempio_di_Gerusalemme 23" DestinationURL="http://it.wikipedia.org/wiki/Tempio_di_Gerusalemme" Hidden="false" DestinationUniqueKey="40319" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Papa_Pio_XII" Name="http://it.wikipedia.org/wiki/Papa_Pio_XII" DestinationURL="http://it.wikipedia.org/wiki/Papa_Pio_XII" Hidden="false" DestinationUniqueKey="40320" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/1944" Name="http://it.wikipedia.org/wiki/1944" DestinationURL="http://it.wikipedia.org/wiki/1944" Hidden="false" DestinationUniqueKey="40321" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/1942" Name="http://it.wikipedia.org/wiki/1942" DestinationURL="http://it.wikipedia.org/wiki/1942" Hidden="false" DestinationUniqueKey="40322" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Seconda_guerra_mondiale" Name="http://it.wikipedia.org/wiki/Seconda_guerra_mondiale" DestinationURL="http://it.wikipedia.org/wiki/Seconda_guerra_mondiale" Hidden="false" DestinationUniqueKey="40323" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Memoria_(liturgia)" Name="http://it.wikipedia.org/wiki/Memoria_(liturgia)" DestinationURL="http://it.wikipedia.org/wiki/Memoria_(liturgia)" Hidden="false" DestinationUniqueKey="40324" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Pentecoste" Name="http://it.wikipedia.org/wiki/Pentecoste" DestinationURL="http://it.wikipedia.org/wiki/Pentecoste" Hidden="false" DestinationUniqueKey="40325" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%25C3%25B9" Name="http://it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%C3%B9" DestinationURL="http://it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%C3%B9" Hidden="false" DestinationUniqueKey="40326" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.google.it/search?hl=it&amp;sa=X&amp;ei=8HXDTcrNI86gOpH-uMIE&amp;ved=0CCQQBSgA&amp;q=Earl+Ray&amp;spell=1" Name="http://www.google.it/search?hl=it&amp;sa=X&amp;ei=8HXDTcrNI86gOpH-uMIE&amp;ved=0CCQQBSgA&amp;q=Earl+Ray&amp;spell=1" DestinationURL="http://www.google.it/search?hl=it&amp;sa=X&amp;ei=8HXDTcrNI86gOpH-uMIE&amp;ved=0CCQQBSgA&amp;q=Earl+Ray&amp;spell=1" Hidden="false" DestinationUniqueKey="40327" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Papa_Pio_XII 11" Name="http://it.wikipedia.org/wiki/Papa_Pio_XII 11" DestinationURL="http://it.wikipedia.org/wiki/Papa_Pio_XII" Hidden="false" DestinationUniqueKey="40328" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/1944 12" Name="http://it.wikipedia.org/wiki/1944 12" DestinationURL="http://it.wikipedia.org/wiki/1944" Hidden="false" DestinationUniqueKey="40329" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/1942 13" Name="http://it.wikipedia.org/wiki/1942 13" DestinationURL="http://it.wikipedia.org/wiki/1942" Hidden="false" DestinationUniqueKey="40330" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Seconda_guerra_mondiale 14" Name="http://it.wikipedia.org/wiki/Seconda_guerra_mondiale 14" DestinationURL="http://it.wikipedia.org/wiki/Seconda_guerra_mondiale" Hidden="false" DestinationUniqueKey="40331" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Memoria_(liturgia) 15" Name="http://it.wikipedia.org/wiki/Memoria_(liturgia) 15" DestinationURL="http://it.wikipedia.org/wiki/Memoria_(liturgia)" Hidden="false" DestinationUniqueKey="40332" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Pentecoste 16" Name="http://it.wikipedia.org/wiki/Pentecoste 16" DestinationURL="http://it.wikipedia.org/wiki/Pentecoste" Hidden="false" DestinationUniqueKey="40333" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%25C3%25B9 17" Name="http://it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%C3%B9 17" DestinationURL="http://it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%C3%B9" Hidden="false" DestinationUniqueKey="40334" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.google.it/search?hl=it&amp;sa=X&amp;ei=8HXDTcrNI86gOpH-uMIE&amp;ved=0CCQQBSgA&amp;q=Earl+Ray&amp;spell=1 18" Name="http://www.google.it/search?hl=it&amp;sa=X&amp;ei=8HXDTcrNI86gOpH-uMIE&amp;ved=0CCQQBSgA&amp;q=Earl+Ray&amp;spell=1 18" DestinationURL="http://www.google.it/search?hl=it&amp;sa=X&amp;ei=8HXDTcrNI86gOpH-uMIE&amp;ved=0CCQQBSgA&amp;q=Earl+Ray&amp;spell=1" Hidden="false" DestinationUniqueKey="40335" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Tempio_di_Gerusalemme 19" Name="http://it.wikipedia.org/wiki/Tempio_di_Gerusalemme 19" DestinationURL="http://it.wikipedia.org/wiki/Tempio_di_Gerusalemme" Hidden="false" DestinationUniqueKey="40336" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Papa_Pio_XII 20" Name="http://it.wikipedia.org/wiki/Papa_Pio_XII 20" DestinationURL="http://it.wikipedia.org/wiki/Papa_Pio_XII" Hidden="false" DestinationUniqueKey="40337" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/1944 21" Name="http://it.wikipedia.org/wiki/1944 21" DestinationURL="http://it.wikipedia.org/wiki/1944" Hidden="false" DestinationUniqueKey="40338" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/1942 22" Name="http://it.wikipedia.org/wiki/1942 22" DestinationURL="http://it.wikipedia.org/wiki/1942" Hidden="false" DestinationUniqueKey="40339" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Seconda_guerra_mondiale 23" Name="http://it.wikipedia.org/wiki/Seconda_guerra_mondiale 23" DestinationURL="http://it.wikipedia.org/wiki/Seconda_guerra_mondiale" Hidden="false" DestinationUniqueKey="40340" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Memoria_(liturgia) 24" Name="http://it.wikipedia.org/wiki/Memoria_(liturgia) 24" DestinationURL="http://it.wikipedia.org/wiki/Memoria_(liturgia)" Hidden="false" DestinationUniqueKey="40341" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Pentecoste 25" Name="http://it.wikipedia.org/wiki/Pentecoste 25" DestinationURL="http://it.wikipedia.org/wiki/Pentecoste" Hidden="false" DestinationUniqueKey="40342" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%25C3%25B9 26" Name="http://it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%C3%B9 26" DestinationURL="http://it.wikipedia.org/wiki/Sacro_Cuore_di_Ges%C3%B9" Hidden="false" DestinationUniqueKey="40343" />
+	<ColorGroup Self="ColorGroup/[Root Color Group]" Name="[Root Color Group]" IsRootColorGroup="true">
+		<ColorGroupSwatch Self="u12ColorGroupSwatch0" SwatchItemRef="Swatch/None" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch1" SwatchItemRef="Color/Registration" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch2" SwatchItemRef="Color/Paper" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch3" SwatchItemRef="Color/Black" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch4" SwatchItemRef="Color/C=100 M=0 Y=0 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch5" SwatchItemRef="Color/BLU comunicazione" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch6" SwatchItemRef="Color/Blue" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch7" SwatchItemRef="Color/C=15 M=100 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch8" SwatchItemRef="Color/C=85 M=40 Y=0 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch9" SwatchItemRef="Color/Nero - Copia" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatcha" SwatchItemRef="Color/Nero - Copia 2" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatchb" SwatchItemRef="Color/ROSSO" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatchc" SwatchItemRef="Color/ROSSO 10" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatchd" SwatchItemRef="Color/Word_R0_G0_B255" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatche" SwatchItemRef="Color/Word_R255_G0_B0" />
+	</ColorGroup>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Symbol" Name="$ID/kIndexGroup_Symbol" Include="true" Priority="0" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Alphabet" Name="$ID/kIndexGroup_Alphabet" Include="true" Priority="1" HeaderType="BasicLatin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Numeric" Name="$ID/kIndexGroup_Numeric" Include="false" Priority="2" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_GreekAlphabet" Name="$ID/kWRIndexGroup_GreekAlphabet" Include="false" Priority="3" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_CyrillicAlphabet" Name="$ID/kWRIndexGroup_CyrillicAlphabet" Include="false" Priority="4" HeaderType="Russian" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Kana" Name="$ID/kIndexGroup_Kana" Include="false" Priority="5" HeaderType="HiraganaAll" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Chinese" Name="$ID/kIndexGroup_Chinese" Include="false" Priority="6" HeaderType="ChinesePinyin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Korean" Name="$ID/kIndexGroup_Korean" Include="false" Priority="7" HeaderType="KoreanConsonant" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_ArabicAlphabet" Name="$ID/kWRIndexGroup_ArabicAlphabet" Include="false" Priority="8" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_HebrewAlphabet" Name="$ID/kWRIndexGroup_HebrewAlphabet" Include="false" Priority="9" HeaderType="Nothing" />
+	<ABullet Self="dABullet0" CharacterType="UnicodeOnly" CharacterValue="8226">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet1" CharacterType="UnicodeOnly" CharacterValue="42">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet2" CharacterType="UnicodeOnly" CharacterValue="9674">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet3" CharacterType="UnicodeWithFont" CharacterValue="187">
+		<Properties>
+			<BulletsFont type="string">Myriad Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet4" CharacterType="GlyphWithFont" CharacterValue="503">
+		<Properties>
+			<BulletsFont type="string">Minion Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet5" CharacterType="GlyphWithFont" CharacterValue="630">
+		<Properties>
+			<BulletsFont type="string">Myriad Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<Assignment Self="uc3" Name="$ID/UnassignedInCopy" UserName="$ID/" ExportOptions="AssignedSpreads" IncludeLinksWhenPackage="true" FilePath="$ID/">
+		<Properties>
+			<FrameColor type="enumeration">Nothing</FrameColor>
+		</Properties>
+	</Assignment>
+</Document>

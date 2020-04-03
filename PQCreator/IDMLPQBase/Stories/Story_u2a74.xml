@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="14.0">
+	<Story Self="u2a74" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" MergeConsecutiveParaBorders="false">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">251</Position>
+					</ListItem>
+				</TabList>
+				<ParagraphBorderGapColor type="object">Swatch/None</ParagraphBorderGapColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Demi Bold" PointSize="12">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Avenir Next</AppliedFont>
+				</Properties>
+				<Content>Calendario Liturgico</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="12">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Avenir Next</AppliedFont>
+				</Properties>
+				<Content> Febbraio 2019</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" MergeConsecutiveParaBorders="false">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">14</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">29</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">219</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">224</Position>
+					</ListItem>
+				</TabList>
+				<ParagraphBorderGapColor type="object">Swatch/None</ParagraphBorderGapColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>1	Ve	S. Severo; S. Raimondo; S. Brigida		III</Content>
+				<Br />
+				<Content>2	Sa	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Demi Bold" PointSize="8.5" HorizontalScale="80">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>Presentazione del Signore</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5" HorizontalScale="80">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content> (f); S. Caterina de&apos; Ricci; B. Benedict Tshimangadzo	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>P</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>3	Do	4ª DOMENICA T. O. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>C; S. Biagio; S. Oscar		IV</Content>
+				<Br />
+				<Content>4	Lu	S. Nicola Studita; S. Gilberto; S. Eutichio		IV</Content>
+				<Br />
+				<Content>5	Ma	S. Agata (m); S. Saba; B. Elisabetta Canori Mora		IV</Content>
+				<Br />
+				<Content>6	Me	Ss. Paolo Miki e c. martiri (m); B. Alfonso M. Fusco; S. Guarino		IV</Content>
+				<Br />
+				<Content>7	Gi	S. Riccardo; S. Partenio; B. Pio IX		IV</Content>
+				<Br />
+				<Content>8	Ve	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Girolamo Emiliani (mf); S. Giuseppina Bakhita (mf); S. Onorato		IV</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Br />
+				<Content>9	Sa	S. Apollonia; S. Miguel Febres Cordero; B. Anna K. Emmerick		IV</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>10	Do	5ª DOMENICA T. O. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>C;</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5" HorizontalScale="97">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content> S. Scolastica; S. Silvano; B. Luigi Stepinac	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5" HorizontalScale="97">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>I</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Br />
+				<Content>11	Lu	B. Maria Vergine di Lourdes (mf); S. Pasquale I		I</Content>
+				<Br />
+				<Content>12	Ma	Ss. Martini di Abitene; S. Benedetto di Aniane		I</Content>
+				<Br />
+				<Content>13	Me	S. Martiniano; S. Benigno; B. Giordano di Sassonia		I</Content>
+				<Br />
+				<Content>14	Gi	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Demi Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>Ss. Cirillo e Metodio, patr. Europa</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content> (f); S. Valentino; S. Vitale		P</Content>
+				<Br />
+				<Content>15	Ve	S. Faustino e Giovita; S. Claudio de la Colombiere		I</Content>
+				<Br />
+				<Content>16	Sa	S. Giuliana; B. Giuseppe Allamano; B. Nicola Paglia		I</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>17	Do	6ª DOMENICA T. O. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>C; Ss. Sette Fondatori O.S.M.; S. Flaviano		</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>II</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Br />
+				<Content>18	Lu	B. Giovanni da Fiesole (Beato Angelico); S. Elladio 		II</Content>
+				<Br />
+				<Content>19	Ma	S. Mansueto; S. Proclo; B. Corrado Confalonieri		II</Content>
+				<Br />
+				<Content>20	Me	S. Eucherio; B. Giacinta Marto; S. Leone di Catania		II</Content>
+				<Br />
+				<Content>21	Gi	S. Pier Damiani; B. Maria Enrica Dominici		II</Content>
+				<Br />
+				<Content>22	Ve	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Demi Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>Cattedra di S. Pietro ap.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content> (f); S. Margherita da Cortona		P</Content>
+				<Br />
+				<Content>23	Sa	S. Policarpo; B. Giuseppina Vannini		II</Content>
+				<Br />
+				<Content>24	Do	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>7ª DOMENICA T. O. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>C; </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5" HorizontalScale="75">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Modesto; B. Tommaso M. Fusco; B. Costanzo Servoli	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>III</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>25	Lu	S. Nestore; S. Cesario, B. Rani Maria Vattalil		III</Content>
+				<Br />
+				<Content>26	Ma	S. Alessandro di Alessandria; S. Faustiniano; S. Porfirio		III</Content>
+				<Br />
+				<Content>27	Me	S. Gabriele dell’Addol.; S. Onorina; S. Gregorio di Narek		III</Content>
+				<Br />
+				<Content>28	Gi	S. Romano; B. Antonia da Firenze		III</Content>
+				<Br />
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" MergeConsecutiveParaBorders="false">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">14</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">29</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">219</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">224</Position>
+					</ListItem>
+				</TabList>
+				<ParagraphBorderGapColor type="object">Swatch/None</ParagraphBorderGapColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

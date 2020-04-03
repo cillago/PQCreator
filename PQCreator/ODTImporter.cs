@@ -20,6 +20,7 @@ using System.Threading;
 using System.Diagnostics;
 using System.IO;
 using System.Collections;
+using Word = Microsoft.Office.Interop.Word;
 
 namespace PQCreator
 {
@@ -73,7 +74,30 @@ namespace PQCreator
 
         public void OpenTXT(string IFile)
         {
-            ODTText = File.ReadAllText(IFile,Encoding.Default );
+            ODTText = File.ReadAllText(IFile, Encoding.Default);
+        }
+
+        public void OpenDOCX(object IFile)
+        {
+            Word.Application word = new Word.Application();
+            Word.Document doc = new Word.Document();
+
+            // Define an object to pass to the API for missing parameters
+            object missing = System.Type.Missing;
+            doc = word.Documents.Open(ref IFile,
+                    ref missing, ref missing, ref missing, ref missing,
+                    ref missing, ref missing, ref missing, ref missing,
+                    ref missing, ref missing, ref missing, ref missing,
+                    ref missing, ref missing, ref missing);
+
+            String read = string.Empty;
+            for (int j = 1; j < doc.Paragraphs.Count; j++)
+            {
+                string temp = doc.Paragraphs[j].Range.Text.Trim();
+                ODTText +=temp + Environment.NewLine;
+            }
+            doc.Close();
+            word.Quit();
         }
 
         public string PutTag()
@@ -97,17 +121,17 @@ namespace PQCreator
             foreach (KeyValuePair<string, Dictionary<string, string>> giorno in dicPQTag)
             {
 
-                string [] checkTag= {"#10","#20","#40","#50"};
+                string[] checkTag = { "#10", "#20", "#40", "#50" };
                 for (int i = 0; i < checkTag.Length; i++)
-			    {
-			        if (!giorno.Value.ContainsKey(checkTag[i])) 
+                {
+                    if (!giorno.Value.ContainsKey(checkTag[i]))
                         sproblem += giorno.Key + " manca tag:" + checkTag[i] + Environment.NewLine;
                 }
 
                 //DOMENICA --> deve esserci seconda lettura
-                if (giorno.Value.ContainsKey("#09") && !giorno.Value.ContainsKey("#30")) sproblem+=giorno.Key + " manca tag:#30" + Environment.NewLine;
+                if (giorno.Value.ContainsKey("#09") && !giorno.Value.ContainsKey("#30")) sproblem += giorno.Key + " manca tag:#30" + Environment.NewLine;
 
-			}
+            }
 
             return sproblem;
         }
@@ -278,9 +302,9 @@ namespace PQCreator
                                                 if (èGiornataMondiale(l)) addGiornataMondiale(l);
                                                 else
                                                 {
-                                                 //suppongo sia festività
-                                                 addOutPQ("#04", l);
-                                                 prog = 4;
+                                                    //suppongo sia festività
+                                                    addOutPQ("#04", l);
+                                                    prog = 4;
                                                 }
                                             }
 
@@ -563,7 +587,7 @@ namespace PQCreator
                                         }
                                     case 4:
                                         {
-                                        if (l.Length == 0) break;
+                                            if (l.Length == 0) break;
                                             if (èAntifonaVangelo(l))
                                             {
                                                 addOutPQ("#45", sTemp);
@@ -621,8 +645,8 @@ namespace PQCreator
 
         private string AggiungiTagNomeSanti(string Vita, string santi)
         {
-            string[] NomiSanti= santi.Split(new char[]{' ','.',';'},StringSplitOptions.RemoveEmptyEntries);
-            int progSanti=0;
+            string[] NomiSanti = santi.Split(new char[] { ' ', '.', ';' }, StringSplitOptions.RemoveEmptyEntries);
+            int progSanti = 0;
             for (int i = 0; i < NomiSanti.Length; i++)
             {
 
@@ -633,7 +657,7 @@ namespace PQCreator
                     {
                         progSanti++;
                         //al posto del nome del santo metto il tag
-                        Vita=Vita.Replace(NomiSanti[i], "#07_" + progSanti.ToString());
+                        Vita = Vita.Replace(NomiSanti[i], "#07_" + progSanti.ToString());
                         //aggingo il tag alla lista dei tag del giorno
                         addOutPQ("#07_" + progSanti.ToString(), NomiSanti[i]);
                     }
@@ -693,7 +717,7 @@ namespace PQCreator
             addOutPQ("#24", l);
             prog = 4;
         }
-        
+
         private void AddOppureAntifonaVangelo(string l)
         {
             addOutPQ("#43", l);
@@ -737,7 +761,7 @@ namespace PQCreator
         {
             l = l.ToLower();
             return (l.StartsWith("luned", StringComparison.InvariantCultureIgnoreCase) || l.StartsWith("marted", StringComparison.InvariantCultureIgnoreCase) || l.StartsWith("mercoled", StringComparison.InvariantCultureIgnoreCase) || l.StartsWith("gioved", StringComparison.InvariantCultureIgnoreCase) || l.StartsWith("sabato", StringComparison.InvariantCultureIgnoreCase) || l.StartsWith("venerd", StringComparison.InvariantCultureIgnoreCase)) &&
-                (l.Contains("gennaio")|| l.Contains("febbraio")|| l.Contains("marzo")|| l.Contains("aprile")|| l.Contains("maggio")|| l.Contains("giugno")|| l.Contains("luglio")|| l.Contains("agosto")|| l.Contains("settembre")|| l.Contains("ottobre")|| l.Contains("novembre")|| l.Contains("dicembre"));
+                (l.Contains("gennaio") || l.Contains("febbraio") || l.Contains("marzo") || l.Contains("aprile") || l.Contains("maggio") || l.Contains("giugno") || l.Contains("luglio") || l.Contains("agosto") || l.Contains("settembre") || l.Contains("ottobre") || l.Contains("novembre") || l.Contains("dicembre"));
         }
         private static bool èInizioDomenica(string l)
         {
@@ -759,11 +783,11 @@ namespace PQCreator
                 addOutPQ("#" + (int)sec + "4", sTemp);
                 addOutPQ("#" + (int)sec + "5", l);
                 //salto alla sezione della seconda possibilità
-                if (sec == Section.primaLettura) 
+                if (sec == Section.primaLettura)
                     sec = Section.primaLetturaOppure;
-                if (sec == Section.secondalettura) 
+                if (sec == Section.secondalettura)
                     sec = Section.secondaLetturaOppure;
-                if (sec == Section.vangelo) 
+                if (sec == Section.vangelo)
                     sec = Section.vangeloOppure;
                 prog = -1;
                 //V2
@@ -824,7 +848,7 @@ namespace PQCreator
             {
                 //trovato parola del Signore
                 if (sTemp.Length > 0) sTemp += Environment.NewLine + l.Substring(0, indSignore);
-                else sTemp +=  l.Substring(0, indSignore);
+                else sTemp += l.Substring(0, indSignore);
                 addOutPQ("#" + (int)sec + "2", sTemp);
                 sTemp = "";
                 addOutPQ("#" + (int)sec + "3", "Parola del Signore.");
@@ -859,7 +883,7 @@ namespace PQCreator
         private bool èInizioVangelo(string l)
         {
             // inizia vangelo
-            if ((l.StartsWith("dal vangelo", StringComparison.InvariantCultureIgnoreCase) || l.StartsWith("passione di nostro signore", StringComparison.InvariantCultureIgnoreCase) )&& l.IndexOf("(") > 0 && l.IndexOf(")") > 0)
+            if ((l.StartsWith("dal vangelo", StringComparison.InvariantCultureIgnoreCase) || l.StartsWith("passione di nostro signore", StringComparison.InvariantCultureIgnoreCase)) && l.IndexOf("(") > 0 && l.IndexOf(")") > 0)
                 return true;
             else return false;
         }
@@ -896,7 +920,7 @@ namespace PQCreator
 
         private void addProblem(string p)
         {
-            sproblem += giornoCorrente + ": " + p   +" | linea:" + lineNum + " s:" + sec + " p:" + prog + " l:" + sTemp + Environment.NewLine;
+            sproblem += giornoCorrente + ": " + p + " | linea:" + lineNum + " s:" + sec + " p:" + prog + " l:" + sTemp + Environment.NewLine;
         }
 
 
