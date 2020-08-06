@@ -219,7 +219,8 @@ namespace PQCreator
                         foreach (StoryLine riga in singleTag.Value.Lines)
                         {
                             //caso particolare --> link alla pagina dei santi se da fare e
-                            if (includeSanti && singleTag.Key == "#02") sezioni[nomesezione] += AddLinkSanti(riga, nomefile, "#02", "#08");
+                            if (includeSanti && singleTag.Key == "#02")
+                                sezioni[nomesezione] += AddLinkSanti(riga, nomefile, "#02", "#08");
                             //caso particolare --> i nomi dei santi devono avere un carattere diverso
                             else if (singleTag.Key == "#03")
                                 sezioni[nomesezione] += ChangeTagForStyleIfBold(riga, "#03", "#07");
@@ -281,12 +282,12 @@ namespace PQCreator
             foreach (var santo in santi)
             {
                 if (santo.Value == null)
-                    ret += SetCaseRiga(santo.Key, NormalTag) +"; ";
+                    ret += SetCaseRiga(santo.Key.Trim(), NormalTag) +"; ";
                 else
                     ret += dictEPUBDecode[LinkedTag][2].Replace("!!!!", WebUtility.HtmlEncode(santo.Value)) + SetCaseRiga(santo.Key, LinkedTag) + dictEPUBDecode[LinkedTag][3]+"; ";
             }
             
-            ret= ret.Substring(0,ret.Length-1) + dictEPUBDecode[NormalTag][3] + Environment.NewLine;
+            ret= ret.Substring(0,ret.Length-2) + dictEPUBDecode[NormalTag][3] + Environment.NewLine;
 
             return ret;
 
