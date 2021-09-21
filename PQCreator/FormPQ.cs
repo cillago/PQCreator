@@ -195,6 +195,8 @@ namespace PQCreator
                 string Testo1 = "";
                 string Titolo2 = "";
                 string Testo2 = "";
+                string Titolo3 = "";
+                string Testo3 = "";
 
                 List<string> LinesSection = new List<string>();
                 int Sezione = 1;
@@ -222,6 +224,13 @@ namespace PQCreator
                                 {
                                     if (j == 0) Titolo2 = LinesSection[j];
                                     else Testo2 += LinesSection[j] + "!!!ACAPO!!!";
+                                }
+                                break;
+                            case 4:
+                                for (int j = 0; j < LinesSection.Count; j++)
+                                {
+                                    if (j == 0) Titolo3 = LinesSection[j];
+                                    else Testo3 += LinesSection[j] + "!!!ACAPO!!!";
                                 }
                                 break;
                         }
@@ -258,6 +267,8 @@ namespace PQCreator
                 baseText = baseText.Replace("<!--PRIMOTESTO-->", WebUtility.HtmlEncode(Testo1).Replace("!!!ACAPO!!!",@"<br/>"));
                 baseText = baseText.Replace("<!--NAMESECONDOTESTO-->", WebUtility.HtmlEncode(Titolo2));
                 baseText = baseText.Replace("<!--SECONDOTESTO-->", WebUtility.HtmlEncode(Testo2).Replace("!!!ACAPO!!!", @"<br/>"));
+                baseText = baseText.Replace("<!--NAMETERZOTESTO-->", WebUtility.HtmlEncode(Titolo3));
+                baseText = baseText.Replace("<!--TERZOTESTO-->", WebUtility.HtmlEncode(Testo3).Replace("!!!ACAPO!!!", @"<br/>"));
                 baseText = baseText.Replace("<!--RITORNO-->", WebUtility.HtmlEncode(ritorno));
 
                 Directory.CreateDirectory("santiNuovi");
@@ -267,7 +278,7 @@ namespace PQCreator
             }
             catch (Exception ex)
             {
-                problems += lines[i] + ex.Message;
+                problems += fileSanti +" " +  lines[i] + " "+  ex.Message;
             }
 
             return problems;
