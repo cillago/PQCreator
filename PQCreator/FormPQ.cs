@@ -32,6 +32,7 @@ namespace PQCreator
         PQImporter PQI;
         RTFTXTWriter rtxS;
         EPUBWriter epubW;
+        NITFWriter nitfW;
         IDMLWriter idmlW;
         public FormPQ()
         {
@@ -157,7 +158,7 @@ namespace PQCreator
 
                     String read = string.Empty;
                     List<string> lines = new List<string>();
-                    for (int j = 1; j < doc.Paragraphs.Count; j++)
+                    for (int j = 1; j <= doc.Paragraphs.Count; j++)
                     {
                         string temp = doc.Paragraphs[j].Range.Text.Trim();
                         lines.Add(temp);
@@ -420,5 +421,26 @@ namespace PQCreator
             //}
         }
 
+        private void bNitf_Click(object sender, EventArgs e)
+        {
+            if (rtxS == null)
+            {
+                MessageBox.Show("File non caricato");
+                return;
+            }
+
+
+            SaveDialog.Filter = "ZIP File|*.zip";
+            SaveDialog.FileName = TPQTitle.Text + ".zip";
+            SaveDialog.Title = "Selezionare percorso per salvataggio file NITF";
+            if (SaveDialog.ShowDialog() == DialogResult.OK)
+            {
+                nitfW = new NITFWriter();
+                nitfW.LoadStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_nitf.csv"));
+                nitfW.LoadBaseFile();
+                nitfW.CreateNITF(SaveDialog.FileName, PQI.dicPQTag, TPQTitle.Text);
+                MessageBox.Show("OK");
+            }
+        }
     }
 }

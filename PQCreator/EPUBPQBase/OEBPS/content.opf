@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="ISBN">__ISBN__</dc:identifier>
+    <dc:title>__PQTITLE__</dc:title>
+    <dc:date opf:event="publication">2012-10-17</dc:date>
+    <dc:language>it</dc:language>
+    <dc:date opf:event="modification">2017-11-28</dc:date>
+    <dc:subject>Don Oreste Benzi</dc:subject>
+    <dc:subject>cristinesimo</dc:subject>
+    <dc:subject>commenti alle letture di ogni giorno</dc:subject>
+    <dc:subject>religione</dc:subject>
+    <dc:subject>Comunità Papa Giovanni XXIII</dc:subject>
+    <dc:rights>per i commenti di Don Oreste Benzi: copyright © Associazione Comunità Papa Giovanni XXIII</dc:rights>
+    <dc:creator opf:role="aut">Don Oreste Benzi</dc:creator>
+    <dc:contributor opf:role="aut">Associazione Comunità Papa Giovanni XXIII</dc:contributor>
+    <dc:description>Le letture di ogni giorno con le meditazioni di Don Oreste Benzi</dc:description>
+    <dc:publisher>Editore Sempre</dc:publisher>
+    <meta name="Sigil version" xmlns="http://www.idpf.org/2007/opf" content="0.9.8" />
+    <meta name="cover" xmlns="http://www.idpf.org/2007/opf" content="COP.jpg" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="css" href="Styles/template.css" media-type="text/css"/>
+    <item id="Futura-CondensedMediumOblique.ttf" href="Fonts/Futura-CondensedMediumOblique.ttf" media-type="application/x-font-ttf"/>
+    <item id="Futura-Medium.ttf" href="Fonts/Futura-Medium.ttf" media-type="application/x-font-ttf"/>
+    <item id="Futura-MediumOblique.ttf" href="Fonts/Futura-MediumOblique.ttf" media-type="application/x-font-ttf"/>
+    <item id="FuturaBT-ExtraBlack.ttf" href="Fonts/FuturaBT-ExtraBlack.ttf" media-type="application/x-font-ttf"/>
+    <item id="Palatino-BoldItalic.ttf" href="Fonts/Palatino-BoldItalic.ttf" media-type="application/x-font-ttf"/>
+    <item id="PalatinoLinotype-Italic.otf" href="Fonts/PalatinoLinotype-Italic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Futura-BoldOblique.ttf" href="Fonts/Futura-BoldOblique.ttf" media-type="application/x-font-ttf"/>
+    <item id="Futura-Book.ttf" href="Fonts/Futura-Book.ttf" media-type="application/x-font-ttf"/>
+    <item id="Editoriale.xhtml" href="Text/Editoriale.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Introduzione.xhtml" href="Text/Introduzione.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc.html" href="Text/toc.html" media-type="application/xhtml+xml"/>
+    <item id="calendario.xhtml" href="Text/calendario.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Palatine.ttf" href="Fonts/Palatine.ttf" media-type="application/x-font-ttf"/>
+    <item id="CAL1.jpg" href="Images/CAL1.jpg" media-type="image/jpeg"/>
+    <item id="CAL2.jpg" href="Images/CAL2.jpg" media-type="image/jpeg"/>
+    <item id="COP.jpg" href="Images/COP.jpg" media-type="image/jpeg"/>
+   <!--MANIFEST-->
+    <!--COMOPEN-->
+    <item href="Text/121103.xhtml" id="121103.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/basegiorno.xhtml" id="basegiorno.xhtml" media-type="application/xhtml+xml" />
+    <!--COMCLOSE-->
+    <item id="Palatine-Bold.ttf" href="Fonts/Palatine-Bold.ttf" media-type="application/x-font-ttf"/>
+    <item id="Preghiera.xhtml" href="Text/Preghiera.xhtml" media-type="application/xhtml+xml"/>
+    <item id="don.jpg" href="Images/don.jpg" media-type="image/jpeg"/>
+    <item id="Biografia.xhtml" href="Text/Biografia.xhtml" media-type="application/xhtml+xml"/>
+    <item id="DonOreste.xhtml" href="Text/DonOreste.xhtml" media-type="application/xhtml+xml"/>
+    <item id="colophon.xhtml" href="Text/colophon.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SeparatoreSanti.xhtml" href="Text/SeparatoreSanti.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="toc.html"/>
+    <itemref idref="calendario.xhtml"/>
+    <itemref idref="Editoriale.xhtml"/>
+    <itemref idref="Introduzione.xhtml"/>
+    <itemref idref="DonOreste.xhtml"/>
+    <itemref idref="Biografia.xhtml"/>
+    <itemref idref="Preghiera.xhtml"/>
+      <!--COMOPEN-->
+    <itemref idref="basegiorno.xhtml" />
+    <!--COMCLOSE-->
+    <!--SPINEGIORNI-->
+    <itemref idref="SeparatoreSanti.xhtml"/>
+<!--SPINESANTI-->
+    <itemref idref="colophon.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+    <reference type="other.titlepage" title="Title Page" href="Text/cover.xhtml"/>
+    <reference type="toc" title="Indice dei contenuti" href="Text/toc.html"/>
+  </guide>
+</package>

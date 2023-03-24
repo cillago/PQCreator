@@ -296,15 +296,15 @@ namespace SAE
             try
             {
                 if (Directory.Exists(IDMLTempPath)) Directory.Delete(IDMLTempPath, true);
-                // unzippo file epub base
-                PQCreator.utility.UnzipFile(IDMLFile, IDMLTempPath);
-
             }
             catch (Exception ex)
             {
                 Log.WriteLog("LoadBaseFile: " + ex.Message);
-                throw ex;
             }
+
+            // unzippo file epub base
+            PQCreator.utility.UnzipFile(IDMLFile, IDMLTempPath);
+
         }
     }
 }

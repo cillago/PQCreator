@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="__ISBN__" name="dtb:uid"/>
+    <meta content="0" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>__PQTITLE__</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navpoint1">
+      <navLabel>
+        <text>Calendario</text>
+      </navLabel>
+      <content src="Text/calendario.xhtml"/>
+    </navPoint>
+    <navPoint id="navpoint2">
+      <navLabel>
+        <text>Editoriale</text>
+      </navLabel>
+      <content src="Text/Editoriale.xhtml"/>
+    </navPoint>
+    <navPoint id="navpoint3">
+      <navLabel>
+        <text>Introduzione alla Parola</text>
+      </navLabel>
+      <content src="Text/Introduzione.xhtml"/>
+    </navPoint>
+    <navPoint id="navpoint4">
+      <navLabel>
+        <text>Don Oreste Benzi</text>
+      </navLabel>
+      <content src="Text/DonOreste.xhtml"/>
+    </navPoint>
+<!--NAVPOINTGIORNI--> 
+    <navPoint id="BIOSANTI">
+      <navLabel>
+        <text>BIOGRAFIE DEI SANTI</text>
+      </navLabel>
+      <content src="Text/SeparatoreSanti.xhtml"/>
+    </navPoint>  
+<!--NAVPOINTSANTI--> 
+<navPoint id="navpointColophon">
+      <navLabel>
+        <text>Informazioni</text>
+      </navLabel>
+      <content src="Text/colophon.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

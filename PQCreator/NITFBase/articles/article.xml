@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nitf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://iptc.org/std/NITF/2006-10-18/ nitf-3-6.xsd" xmlns="http://iptc.org/std/NITF/2006-10-18/" version="-//IPTC//DTD NITF 3.6//EN">
+    <head>
+        <title>%%TITLE%%</title>
+    </head>
+    <body>
+        <body.head>
+            <hedline>
+                <hl1>%%HEADLINE%%</hl1>
+            </hedline>
+        </body.head>
+        <body.content>
+%%CONTENT%%
+        </body.content>
+    </body>
+</nitf>
