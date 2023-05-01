@@ -91,7 +91,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecodeBXML.cs" />
     <Compile Include="NITFWriter.cs" />
+    <Compile Include="BXMLImporter.cs" />
     <Compile Include="Story.cs" />
     <Compile Include="DecodeIDML.cs" />
     <Compile Include="EPUBWriter.cs" />
@@ -124,6 +126,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="NITFBookBase.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="NITFPQBase.zip">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

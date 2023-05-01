@@ -10,6 +10,7 @@ using System.Diagnostics;
 using Word = Microsoft.Office.Interop.Word;
 using System.Net;
 using System.Linq;
+using System.Web.UI.WebControls;
 
 enum Section
 {
@@ -56,13 +57,13 @@ namespace PQCreator
                 //CARICO TXT
                 string problems;
                 odtI = new ODTImporter();
-             //   odtI.OpenDOCX((object)OpenDialog.FileName);
+                //   odtI.OpenDOCX((object)OpenDialog.FileName);
                 odtI.OpenODT(OpenDialog.FileName);
                 //odtI.OpenTXT(OpenDialog.FileName);
                 problems = odtI.PutTag();
 
                 //Creo RTF
-                CreaRTF();
+                //CreaRTF();
 
                 File.WriteAllText("PQLOG.txt", problems);
                 if (problems.Length > 0) MessageBox.Show(problems);
@@ -70,24 +71,24 @@ namespace PQCreator
             }
         }
 
-        private void CreaRTF()
-        {
-            rtxS = new RTFTXTWriter();
-            rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
-            rtxS.populateRTFBox(odtI.dicPQTag, ref richTextBoxTAG);
-        }
+        //private void CreaRTF()
+        //{
+        //    rtxS = new RTFTXTWriter();
+        //    rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
+        //    rtxS.populateRTFBox(odtI.dicPQTag, ref richTextBoxTAG);
+        //}
 
-        private void CreaRTFIDML()
-        {
-            rtxS = new RTFTXTWriter();
-            rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
-            rtxS.populateRTFBoxIDML(PQI.dicPQTag, ref richTextBoxTAG);
-        }
+        //private void CreaRTFIDML()
+        //{
+        //    rtxS = new RTFTXTWriter();
+        //    rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
+        //    rtxS.populateRTFBoxIDML(PQI.dicPQTag, ref richTextBoxTAG);
+        //}
 
-        private void bCreaRtf_Click(object sender, EventArgs e)
-        {
-            CreaRTF();
-        }
+        //private void bCreaRtf_Click(object sender, EventArgs e)
+        //{
+        //    CreaRTF();
+        //}
 
 
 
@@ -204,14 +205,14 @@ namespace PQCreator
                 for (i = 0; i < lines.Count; i++)
                 {
                     if (lines[i].Trim().Length > 0) LinesSection.Add(lines[i]);
-                    if ((lines[i].Trim().Length == 0 || i == lines.Count - 1) && LinesSection.Count>0)
+                    if ((lines[i].Trim().Length == 0 || i == lines.Count - 1) && LinesSection.Count > 0)
                     {
                         //fine sezione
                         switch (Sezione)
                         {
                             case 1:
                                 Santo = LinesSection[0];
-                                Incipit= LinesSection[1];
+                                Incipit = LinesSection[1];
                                 break;
                             case 2:
                                 for (int j = 0; j < LinesSection.Count; j++)
@@ -243,7 +244,7 @@ namespace PQCreator
                 string giorno = Convert.ToInt32(partifilename[1]) + " " + MeseDaNumero(partifilename[0]);
                 string oldimgfile = fileSanti.Substring(0, fileSanti.LastIndexOf(".")) + ".jpg";
                 string newimgfile = partifilename[0] + partifilename[1] + oldimgfile.Substring(5).Replace(" ", "_");
-                string santixhtmlfile = "santi_" + partifilename[0] + partifilename[1] + fileSanti.Substring(5, fileSanti.LastIndexOf(".")-5).Replace(" ", "_") +".xhtml";
+                string santixhtmlfile = "santi_" + partifilename[0] + partifilename[1] + fileSanti.Substring(5, fileSanti.LastIndexOf(".") - 5).Replace(" ", "_") + ".xhtml";
                 string ritorno = partifilename[0] + partifilename[1] + ".xhtml";
 
                 if (Santo == "")
@@ -265,7 +266,7 @@ namespace PQCreator
                 baseText = baseText.Replace("<!--INCIPIT-->", WebUtility.HtmlEncode(Incipit));
                 baseText = baseText.Replace("<!--IMGFILE-->", WebUtility.HtmlEncode(newimgfile));
                 baseText = baseText.Replace("<!--NAMEPRIMOTESTO-->", WebUtility.HtmlEncode(Titolo1));
-                baseText = baseText.Replace("<!--PRIMOTESTO-->", WebUtility.HtmlEncode(Testo1).Replace("!!!ACAPO!!!",@"<br/>"));
+                baseText = baseText.Replace("<!--PRIMOTESTO-->", WebUtility.HtmlEncode(Testo1).Replace("!!!ACAPO!!!", @"<br/>"));
                 baseText = baseText.Replace("<!--NAMESECONDOTESTO-->", WebUtility.HtmlEncode(Titolo2));
                 baseText = baseText.Replace("<!--SECONDOTESTO-->", WebUtility.HtmlEncode(Testo2).Replace("!!!ACAPO!!!", @"<br/>"));
                 baseText = baseText.Replace("<!--NAMETERZOTESTO-->", WebUtility.HtmlEncode(Titolo3));
@@ -274,12 +275,12 @@ namespace PQCreator
 
                 Directory.CreateDirectory("santiNuovi");
                 File.WriteAllText(@".\santiNuovi\" + santixhtmlfile, baseText);
-                File.Copy(dirSanti + @"\" + oldimgfile, @".\santiNuovi\" + newimgfile,true);
+                File.Copy(dirSanti + @"\" + oldimgfile, @".\santiNuovi\" + newimgfile, true);
 
             }
             catch (Exception ex)
             {
-                problems += fileSanti +" " +  lines[i] + " "+  ex.Message;
+                problems += fileSanti + " " + lines[i] + " " + ex.Message;
             }
 
             return problems;
@@ -396,7 +397,7 @@ namespace PQCreator
 
             PQI.OpenIDML(idmlfile);
             problems = PQI.PutTag();
-            CreaRTFIDML();
+            //CreaRTFIDML();
 
             File.WriteAllText("PQLOG.txt", problems);
             if (problems.Length > 0) MessageBox.Show("problems");
@@ -439,6 +440,44 @@ namespace PQCreator
                 nitfW.LoadStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_nitf.csv"));
                 nitfW.LoadBaseFile();
                 nitfW.CreateNITF(SaveDialog.FileName, PQI.dicPQTag, TPQTitle.Text);
+                MessageBox.Show("OK");
+            }
+        }
+
+        private void BImpBook_Click(object sender, EventArgs e)
+        {
+            string xmlfile = @"c:\Users\casae\Downloads\vertopal.com_2_Attirati da Gesù CAPBRAKE.xml";
+
+            OpenDialog.Filter = "XML Files|*.xml";
+            OpenDialog.Multiselect = false;
+            OpenDialog.Title = "Seleziona il file XML del libro";
+            OpenDialog.FileName = "";
+
+            if (OpenDialog.ShowDialog() == DialogResult.OK) xmlfile = OpenDialog.FileName;
+
+            string problems = "";
+            bool ret = BXMLImporter.LoadBXMLFile(xmlfile);
+
+            File.WriteAllText("PQLOG.txt", problems);
+            if (problems.Length > 0) MessageBox.Show("problems");
+            else MessageBox.Show("OK");
+
+        }
+
+        private void bnitflibro_Click(object sender, EventArgs e)
+        {
+            if (BXMLImporter.book  == null)
+            {
+                MessageBox.Show("Libro non caricato");
+                return;
+            }
+
+            SaveDialog.Filter = "ZIP File|*.zip";
+            SaveDialog.FileName = TPQTitle.Text + ".zip";
+            SaveDialog.Title = "Selezionare percorso per salvataggio file NITF";
+            if (SaveDialog.ShowDialog() == DialogResult.OK)
+            {
+                BXMLImporter.CreateNITF(SaveDialog.FileName, TPQTitle.Text);
                 MessageBox.Show("OK");
             }
         }
