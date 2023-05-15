@@ -461,7 +461,6 @@ namespace PQCreator
             File.WriteAllText("PQLOG.txt", problems);
             if (problems.Length > 0) MessageBox.Show("problems");
             else MessageBox.Show("OK");
-
         }
 
         private void bnitflibro_Click(object sender, EventArgs e)
@@ -480,6 +479,25 @@ namespace PQCreator
                 BXMLImporter.CreateNITF(SaveDialog.FileName, TPQTitle.Text);
                 MessageBox.Show("OK");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string xmlfile = @"c:\temp\Sempre\IDML\all.txt";
+
+            OpenDialog.Filter = "TXT Files|*.txt";
+            OpenDialog.Multiselect = false;
+            OpenDialog.Title = "Seleziona il file TXT di Sempre";
+            OpenDialog.FileName = "";
+
+            if (OpenDialog.ShowDialog() == DialogResult.OK) xmlfile = OpenDialog.FileName;
+
+            string problems = "";
+            bool ret = BXMLImporter.LoadTXTSempreFile(xmlfile);
+
+            File.WriteAllText("PQLOG.txt", problems);
+            if (problems.Length > 0) MessageBox.Show("problems");
+            else MessageBox.Show("OK");
         }
     }
 }

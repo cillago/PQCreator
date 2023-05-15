@@ -34,7 +34,8 @@ namespace PQCreator
         public List<Tuple<string, string>> parts = new List<Tuple<string, string>>();
 
         static string startItalic = "<emphasis";
-        static string endItalic = "</emphasis>";
+        static string startBold = "<emphasis role=\"strong\"";
+        static string end = "</emphasis>";
         static string footnote = "<footnote>";
 
         public Paragraph(XElement parText, ref string problems)
@@ -42,16 +43,29 @@ namespace PQCreator
             parts = ImportParts(parts, parText, ref problems);
         }
 
+
+        public Paragraph(string parText, ref string problems)
+        {
+            parts.Add(Tuple.Create(parText, "N"));
+        }
+
         private List<Tuple<string, string>> ImportParts(List<Tuple<string, string>> parts, XElement partToAdd, ref string problems)
         {
             foreach (var n in partToAdd.Nodes())
             {
                 string nText = n.ToString().Replace("  ", "").Replace("   ", "").Replace("\r\n", " ");
-
-                if (nText.StartsWith(startItalic))
+                if (nText.StartsWith(startBold))
+                {
+                    //aggiungo bold
+                    string bold = nText.Substring(nText.IndexOf(">") + 1, nText.IndexOf(end) - nText.IndexOf(">") - 1);
+                    if (bold.Contains(">") || bold.Contains("<"))
+                        problems += "not valid char in :" + bold + Environment.NewLine;
+                    else parts.Add(Tuple.Create(bold, "B"));
+                }
+                else if (nText.StartsWith(startItalic))
                 {
                     //aggiungo italic
-                    string italic = nText.Substring(nText.IndexOf(">") + 1, nText.IndexOf(endItalic) - nText.IndexOf(">") - 1);
+                    string italic = nText.Substring(nText.IndexOf(">") + 1, nText.IndexOf(end) - nText.IndexOf(">") - 1);
                     if (italic.Contains(">") || italic.Contains("<"))
                         problems += "not valid char in :" + italic + Environment.NewLine;
                     else parts.Add(Tuple.Create(italic, "C"));
@@ -134,6 +148,52 @@ namespace PQCreator
             return true;
         }
 
+
+        public static bool LoadTXTSempreFile(string FilePath)
+        {
+
+            book = new Book();
+            string problems = "";
+
+            bool newChapter = true;
+
+            Chapter currentChapter = new Chapter();
+
+            foreach (string parText in File.ReadAllLines(FilePath))
+            {
+                if (newChapter && parText.Length > 0)
+                {
+                    currentChapter = new Chapter();
+                    currentChapter.title = parText;
+                    newChapter = false;
+                    continue;
+                }
+
+                if (parText.Contains("##CAPBRAKE##"))
+                {
+                    book.chapters.Add(currentChapter);
+                    newChapter = true;
+                    continue;
+                }
+
+                Paragraph p = new Paragraph(parText, ref problems);
+
+                if (p != null) currentChapter.paragraphs.Add(p);
+            }
+
+            //aggiungo ultimo capitolo
+            book.chapters.Add(currentChapter);
+
+            if (problems.Length > 0)
+            {
+                Log.WriteLog(problems);
+                return false;
+            }
+
+
+            return true;
+        }
+
         internal static void CreateNITF(string nitffile, string PQTitle)
         {
             string bookBaseNITFFile = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "NITFBookBase.zip");
@@ -168,6 +228,10 @@ namespace PQCreator
                             if (x.Item2 == "C")
                             {
                                 testo += "<i>" + x.Item1 + "</i>";
+                            }
+                            else if (x.Item2 == "B")
+                            {
+                                testo += "<b>" + x.Item1 + "</b>";
                             }
                             else testo += x.Item1;
                         }

@@ -45,8 +45,9 @@
             this.BConvert = new System.Windows.Forms.Button();
             this.bcreaodf = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.BImpBook = new System.Windows.Forms.Button();
             this.bnitflibro = new System.Windows.Forms.Button();
+            this.BImpBook = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -217,12 +218,23 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.bnitflibro);
             this.panel2.Controls.Add(this.BImpBook);
             this.panel2.Location = new System.Drawing.Point(367, 9);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(154, 304);
             this.panel2.TabIndex = 17;
+            // 
+            // bnitflibro
+            // 
+            this.bnitflibro.Location = new System.Drawing.Point(0, 61);
+            this.bnitflibro.Name = "bnitflibro";
+            this.bnitflibro.Size = new System.Drawing.Size(147, 46);
+            this.bnitflibro.TabIndex = 1;
+            this.bnitflibro.Text = "Salva NITF Libro";
+            this.bnitflibro.UseVisualStyleBackColor = true;
+            this.bnitflibro.Click += new System.EventHandler(this.bnitflibro_Click);
             // 
             // BImpBook
             // 
@@ -234,15 +246,15 @@
             this.BImpBook.UseVisualStyleBackColor = true;
             this.BImpBook.Click += new System.EventHandler(this.BImpBook_Click);
             // 
-            // bnitflibro
+            // button1
             // 
-            this.bnitflibro.Location = new System.Drawing.Point(0, 61);
-            this.bnitflibro.Name = "bnitflibro";
-            this.bnitflibro.Size = new System.Drawing.Size(147, 46);
-            this.bnitflibro.TabIndex = 1;
-            this.bnitflibro.Text = "Salva NITF Libro";
-            this.bnitflibro.UseVisualStyleBackColor = true;
-            this.bnitflibro.Click += new System.EventHandler(this.bnitflibro_Click);
+            this.button1.Location = new System.Drawing.Point(4, 113);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 46);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Importa Sempre TXT";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormPQ
             // 
@@ -285,6 +297,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button BImpBook;
         private System.Windows.Forms.Button bnitflibro;
+        private System.Windows.Forms.Button button1;
     }
 }
 
