@@ -174,7 +174,7 @@ namespace PQCreator
                 StartInfo =
                 {
                     Arguments = "-headless -nofirststartwizard",
-                    FileName = "soffice.exe",
+                    FileName = "c:\\Program Files (x86)\\OpenOffice 4\\program\\soffice.exe",
                     CreateNoWindow = true
                 }
             };

@@ -63,7 +63,7 @@ namespace PQCreator
                 problems = odtI.PutTag();
 
                 //Creo RTF
-                //CreaRTF();
+                CreaRTF();
 
                 File.WriteAllText("PQLOG.txt", problems);
                 if (problems.Length > 0) MessageBox.Show(problems);
@@ -71,12 +71,12 @@ namespace PQCreator
             }
         }
 
-        //private void CreaRTF()
-        //{
-        //    rtxS = new RTFTXTWriter();
-        //    rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
-        //    rtxS.populateRTFBox(odtI.dicPQTag, ref richTextBoxTAG);
-        //}
+        private void CreaRTF()
+        {
+            rtxS = new RTFTXTWriter();
+            rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
+            rtxS.populateRTFBox(odtI.dicPQTag, ref richTextBoxTAG);
+        }
 
         //private void CreaRTFIDML()
         //{

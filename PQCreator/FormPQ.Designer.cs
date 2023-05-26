@@ -45,9 +45,10 @@
             this.BConvert = new System.Windows.Forms.Button();
             this.bcreaodf = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.bnitflibro = new System.Windows.Forms.Button();
             this.BImpBook = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.richTextBoxTAG = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +64,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.richTextBoxTAG);
             this.panel1.Controls.Add(this.bNitf);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.tDirSanti);
@@ -226,6 +228,16 @@
             this.panel2.Size = new System.Drawing.Size(154, 304);
             this.panel2.TabIndex = 17;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(4, 113);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 46);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Importa Sempre TXT";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // bnitflibro
             // 
             this.bnitflibro.Location = new System.Drawing.Point(0, 61);
@@ -246,21 +258,19 @@
             this.BImpBook.UseVisualStyleBackColor = true;
             this.BImpBook.Click += new System.EventHandler(this.BImpBook_Click);
             // 
-            // button1
+            // richTextBoxTAG
             // 
-            this.button1.Location = new System.Drawing.Point(4, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 46);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Importa Sempre TXT";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.richTextBoxTAG.Location = new System.Drawing.Point(197, 242);
+            this.richTextBoxTAG.Name = "richTextBoxTAG";
+            this.richTextBoxTAG.Size = new System.Drawing.Size(144, 28);
+            this.richTextBoxTAG.TabIndex = 29;
+            this.richTextBoxTAG.Text = "";
             // 
             // FormPQ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(777, 341);
+            this.ClientSize = new System.Drawing.Size(528, 316);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -298,6 +308,7 @@
         private System.Windows.Forms.Button BImpBook;
         private System.Windows.Forms.Button bnitflibro;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox richTextBoxTAG;
     }
 }
 
