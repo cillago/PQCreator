@@ -265,6 +265,7 @@
             this.richTextBoxTAG.Size = new System.Drawing.Size(144, 28);
             this.richTextBoxTAG.TabIndex = 29;
             this.richTextBoxTAG.Text = "";
+            this.richTextBoxTAG.Visible = false;
             // 
             // FormPQ
             // 

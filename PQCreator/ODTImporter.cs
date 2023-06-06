@@ -336,7 +336,9 @@ namespace PQCreator
                                             if (èGiornataMondiale(l)) addGiornataMondiale(l);
                                             else
                                             {
-                                                addProblem("parte non riconosciuta");
+                                                //suppongo sia festività
+                                                addOutPQ("#04", l);
+                                                prog = 5;
                                             }
                                             break;
                                         }

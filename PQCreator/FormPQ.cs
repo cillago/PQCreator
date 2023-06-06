@@ -78,12 +78,12 @@ namespace PQCreator
             rtxS.populateRTFBox(odtI.dicPQTag, ref richTextBoxTAG);
         }
 
-        //private void CreaRTFIDML()
-        //{
-        //    rtxS = new RTFTXTWriter();
-        //    rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
-        //    rtxS.populateRTFBoxIDML(PQI.dicPQTag, ref richTextBoxTAG);
-        //}
+        private void CreaRTFIDML()
+        {
+            rtxS = new RTFTXTWriter();
+            rtxS.LoadRTFStyle(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "style_rtf.csv"));
+            rtxS.populateRTFBoxIDML(PQI.dicPQTag, ref richTextBoxTAG);
+        }
 
         //private void bCreaRtf_Click(object sender, EventArgs e)
         //{
@@ -397,7 +397,7 @@ namespace PQCreator
 
             PQI.OpenIDML(idmlfile);
             problems = PQI.PutTag();
-            //CreaRTFIDML();
+            CreaRTFIDML();
 
             File.WriteAllText("PQLOG.txt", problems);
             if (problems.Length > 0) MessageBox.Show("problems");
