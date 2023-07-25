@@ -465,7 +465,7 @@ namespace PQCreator
 
         private void bnitflibro_Click(object sender, EventArgs e)
         {
-            if (BXMLImporter.book  == null)
+            if (BXMLImporter.book == null)
             {
                 MessageBox.Show("Libro non caricato");
                 return;
@@ -498,6 +498,24 @@ namespace PQCreator
             File.WriteAllText("PQLOG.txt", problems);
             if (problems.Length > 0) MessageBox.Show("problems");
             else MessageBox.Show("OK");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string path = " c:\\Users\\casae\\Il mio Drive\\pq\\ODT\\";
+            ODTImporter odtI;
+            string TotalODT = "";
+
+            foreach (FileInfo f in new DirectoryInfo(path).GetFiles("*.odt").OrderByDescending(x => x.LastWriteTime))
+            {
+                odtI = new ODTImporter();
+                odtI.OpenODT(f.FullName);
+                TotalODT += " -------------------------->>  " + f.Name + "  <<--------------------------------" + Environment.NewLine;
+                TotalODT += odtI.ODTText;
+            }
+
+            File.WriteAllText(TotalODT, path + "PQTotale.txt");
+            MessageBox.Show("OK");
         }
     }
 }

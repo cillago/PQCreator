@@ -31,6 +31,7 @@
             this.OpenDialog = new System.Windows.Forms.OpenFileDialog();
             this.SaveDialog = new System.Windows.Forms.SaveFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.richTextBoxTAG = new System.Windows.Forms.RichTextBox();
             this.bNitf = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.tDirSanti = new System.Windows.Forms.TextBox();
@@ -48,7 +49,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.bnitflibro = new System.Windows.Forms.Button();
             this.BImpBook = new System.Windows.Forms.Button();
-            this.richTextBoxTAG = new System.Windows.Forms.RichTextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -82,6 +83,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(353, 304);
             this.panel1.TabIndex = 16;
+            // 
+            // richTextBoxTAG
+            // 
+            this.richTextBoxTAG.Location = new System.Drawing.Point(197, 242);
+            this.richTextBoxTAG.Name = "richTextBoxTAG";
+            this.richTextBoxTAG.Size = new System.Drawing.Size(144, 28);
+            this.richTextBoxTAG.TabIndex = 29;
+            this.richTextBoxTAG.Text = "";
+            this.richTextBoxTAG.Visible = false;
             // 
             // bNitf
             // 
@@ -220,6 +230,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.bnitflibro);
             this.panel2.Controls.Add(this.BImpBook);
@@ -258,14 +269,15 @@
             this.BImpBook.UseVisualStyleBackColor = true;
             this.BImpBook.Click += new System.EventHandler(this.BImpBook_Click);
             // 
-            // richTextBoxTAG
+            // button2
             // 
-            this.richTextBoxTAG.Location = new System.Drawing.Point(197, 242);
-            this.richTextBoxTAG.Name = "richTextBoxTAG";
-            this.richTextBoxTAG.Size = new System.Drawing.Size(144, 28);
-            this.richTextBoxTAG.TabIndex = 29;
-            this.richTextBoxTAG.Text = "";
-            this.richTextBoxTAG.Visible = false;
+            this.button2.Location = new System.Drawing.Point(0, 254);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(147, 46);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Unisci ODT PQ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormPQ
             // 
@@ -310,6 +322,7 @@
         private System.Windows.Forms.Button bnitflibro;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox richTextBoxTAG;
+        private System.Windows.Forms.Button button2;
     }
 }
 

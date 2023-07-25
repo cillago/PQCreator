@@ -26,7 +26,7 @@ namespace PQCreator
 {
     public class ODTImporter
     {
-        private string ODTText = "";
+        public string ODTText = "";
         private string sproblem = "";
         private string outPQTag;
         private Section sec;

@@ -117,11 +117,6 @@ namespace PQCreator
                         continue;
                     }
 
-                    if (parText.Contains("giovinezza"))
-                    {
-                        int i;
-                    }
-
                     Paragraph p = new Paragraph(element, ref problems);
 
                     if (p != null) currentChapter.paragraphs.Add(p);
