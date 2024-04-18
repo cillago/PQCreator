@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="19.0">
+	<Story Self="u2a59" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">14</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">29</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">219</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">224</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>1</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>2	</Content>
+				<Br />
+				<Content>3	</Content>
+				<Br />
+				<Content>4	</Content>
+				<Br />
+				<Content>5	</Content>
+				<Br />
+				<Content>6	</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>7</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>	</Content>
+				<Br />
+				<Content>8	</Content>
+				<Br />
+				<Content>9	</Content>
+				<Br />
+				<Content>10	</Content>
+				<Br />
+				<Content>11	</Content>
+				<Br />
+				<Content>12	</Content>
+				<Br />
+				<Content>13	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>14</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>	</Content>
+				<Br />
+				<Content>15	</Content>
+				<Br />
+				<Content>16	</Content>
+				<Br />
+				<Content>17	</Content>
+				<Br />
+				<Content>18	</Content>
+				<Br />
+				<Content>19	</Content>
+				<Br />
+				<Content>20	</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>21</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>	</Content>
+				<Br />
+				<Content>22	</Content>
+				<Br />
+				<Content>23	</Content>
+				<Br />
+				<Content>24	</Content>
+				<Br />
+				<Content>25	</Content>
+				<Br />
+				<Content>26	</Content>
+				<Br />
+				<Content>27	</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>28</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>	</Content>
+				<Br />
+				<Content>29	</Content>
+				<Br />
+				<Content>30	</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

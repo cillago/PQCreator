@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="19.0">
+	<Story Self="u2b6b" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="FullyJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/GIORNO" FontStyle="Condensed Medium" PointSize="7" HorizontalScale="95" Tracking="-2">
+				<Properties>
+					<Leading type="unit">8</Leading>
+					<AppliedFont type="string">Futura (TT)</AppliedFont>
+				</Properties>
+				<Content>L’Editore garantisce il trattamento dei dati ai sensi del GDPR 679/2016 e successive integrazioni. Le informazioni custodite verranno utilizzate per il servizio effettuato e per far conoscere altre nostre pubblicazioni e/o eventuali nostre iniziative ad esse collegate. È possibile in ogni momento esercitare i diritti di legge gratuitamente contattando il Responsabile del Trattamento all’indirizzo semprecommunity@apg23.org</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

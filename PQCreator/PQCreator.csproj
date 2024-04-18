@@ -112,6 +112,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RTFText.cs" />
     <Compile Include="RTFWriter.cs" />
+    <Compile Include="TXTMP3Writer.cs" />
     <Compile Include="utility.cs" />
     <EmbeddedResource Include="FormPQ.resx">
       <DependentUpon>FormPQ.cs</DependentUpon>

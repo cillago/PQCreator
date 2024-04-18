@@ -46,10 +46,11 @@
             this.BConvert = new System.Windows.Forms.Button();
             this.bcreaodf = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.bnitflibro = new System.Windows.Forms.Button();
             this.BImpBook = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.bRead = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +66,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.bRead);
             this.panel1.Controls.Add(this.richTextBoxTAG);
             this.panel1.Controls.Add(this.bNitf);
             this.panel1.Controls.Add(this.label3);
@@ -81,12 +83,12 @@
             this.panel1.Controls.Add(this.bcreaodf);
             this.panel1.Location = new System.Drawing.Point(8, 9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(353, 304);
+            this.panel1.Size = new System.Drawing.Size(353, 359);
             this.panel1.TabIndex = 16;
             // 
             // richTextBoxTAG
             // 
-            this.richTextBoxTAG.Location = new System.Drawing.Point(197, 242);
+            this.richTextBoxTAG.Location = new System.Drawing.Point(197, 289);
             this.richTextBoxTAG.Name = "richTextBoxTAG";
             this.richTextBoxTAG.Size = new System.Drawing.Size(144, 28);
             this.richTextBoxTAG.TabIndex = 29;
@@ -95,7 +97,7 @@
             // 
             // bNitf
             // 
-            this.bNitf.Location = new System.Drawing.Point(197, 189);
+            this.bNitf.Location = new System.Drawing.Point(197, 182);
             this.bNitf.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bNitf.Name = "bNitf";
             this.bNitf.Size = new System.Drawing.Size(144, 49);
@@ -107,7 +109,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 280);
+            this.label3.Location = new System.Drawing.Point(7, 327);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 16);
@@ -116,7 +118,7 @@
             // 
             // tDirSanti
             // 
-            this.tDirSanti.Location = new System.Drawing.Point(73, 277);
+            this.tDirSanti.Location = new System.Drawing.Point(73, 324);
             this.tDirSanti.Margin = new System.Windows.Forms.Padding(4);
             this.tDirSanti.Name = "tDirSanti";
             this.tDirSanti.Size = new System.Drawing.Size(268, 22);
@@ -128,7 +130,7 @@
             this.checkSanti.AutoSize = true;
             this.checkSanti.Checked = true;
             this.checkSanti.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkSanti.Location = new System.Drawing.Point(10, 251);
+            this.checkSanti.Location = new System.Drawing.Point(10, 298);
             this.checkSanti.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkSanti.Name = "checkSanti";
             this.checkSanti.Size = new System.Drawing.Size(100, 20);
@@ -239,6 +241,16 @@
             this.panel2.Size = new System.Drawing.Size(154, 304);
             this.panel2.TabIndex = 17;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(0, 254);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(147, 46);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Unisci ODT PQ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(4, 113);
@@ -269,21 +281,22 @@
             this.BImpBook.UseVisualStyleBackColor = true;
             this.BImpBook.Click += new System.EventHandler(this.BImpBook_Click);
             // 
-            // button2
+            // bRead
             // 
-            this.button2.Location = new System.Drawing.Point(0, 254);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 46);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Unisci ODT PQ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.bRead.Location = new System.Drawing.Point(197, 235);
+            this.bRead.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bRead.Name = "bRead";
+            this.bRead.Size = new System.Drawing.Size(144, 49);
+            this.bRead.TabIndex = 30;
+            this.bRead.Text = "Salva TXT per MP3";
+            this.bRead.UseVisualStyleBackColor = true;
+            this.bRead.Click += new System.EventHandler(this.bRead_Click);
             // 
             // FormPQ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 316);
+            this.ClientSize = new System.Drawing.Size(528, 380);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -323,6 +336,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox richTextBoxTAG;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bRead;
     }
 }
 

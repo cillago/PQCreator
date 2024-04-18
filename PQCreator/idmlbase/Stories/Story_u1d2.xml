@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="19.0">
+	<Story Self="u1d2" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SALMI" FontStyle="Regular" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>editoriale</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Testimoniamo prima con la vita</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">15</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" FirstLineIndent="8.503937007874017" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>«Fratelli, mentre i Giudei chiedono segni e i Greci cercano sapienza, noi invece annunciamo Cristo crocifisso» (1Cor 1, 22). Da circa due settimane siamo entrati nel tempo della Quaresima, un periodo di preparazione alla Pasqua del Signore, ma anche di verifica del nostro rapporto con Lui. Siamo giunti alla terza domenica di Quaresima e San Paolo ci ricorda che la nostra via è quella che Gesù ci ha mostrato vivendola: la via dell’amore </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>crocifisso e risorto</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>. In questo tempo penitenziale l’ascolto della Parola e i commenti di don Oreste ci spingono a cercare sempre di più la relazione con il Padre, e quanto più cresce il desiderio di ritornare a lui, tanto più diminuisce la nostra resistenza al pentimento. </Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>«È bello stare col Signore, è bello pentirsi; andate tutti a confessarvi perché il Signore ci perdona!».</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> Ha ragione don Oreste, il Signore davvero ci perdona sempre e ci accoglie con misericordia. «Per grazia, infatti, siete salvati mediante la fede; e ciò non viene da voi, ma è dono di Dio» (Ef 2, 8). La penitenza e la riconciliazione con il Signore sono il nostro sì al dono che abbiamo ricevuto e questo sì ci fa entrare a far parte di un popolo che cammina con gioia anche nelle tribolazioni, un popolo che partecipa alla formazione di “mondi vitali nuovi”. Ma tutto si gioca su quel sì: è un tempo prezioso e l’ora della scelta si avvicina, la Pasqua del Signore si avvicina e il sì di Gesù che sale sulla croce attira tutti i nostri sì, non perdiamo la coincidenza con Lui!</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Domenica 24 marzo è la </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold Italic" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Domenica delle Palme</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> e quest’anno coincide con la </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold Italic" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Giornata di preghiera e digiuno in memoria dei missionari martiri</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, giorno del martirio di mons. Oscar Romero, Arcivescovo di San Salvador. Mons. Romero ha scelto di non perdere la coincidenza con il Signore e nella piena libertà ha detto il suo sì. «Quando ti metti con Dio sai da dove cominci, ma non sai dove andrai a finire» ci rammenta don Oreste. Inizia così la settimana Santa, Passione di nostro Signore Gesù Cristo. La settimana in cui facciamo memoria dell’amore di Dio per noi. Come possiamo rimanere indifferenti di fronte a questo amore? Lasciamoci coinvolgere da questa Passione e come il centurione riconosciamo che «Davvero quest’uomo era Figlio di Dio!». Lasciamoci attrarre dalla luce e usciamo dalle tenebre. Scegliamo di donare tutto e di abbandonarci a lui. Lasciamo le finte sicurezze del mondo che prima o poi vengono meno e scegliamo di conoscerlo sempre di più rinforzando la relazione con lui nella preghiera, che diventa davvero pane quotidiano per far coincidere sempre più la nostra volontà con quella del Padre.  </Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>«È Pasqua. È il passaggio dalla schiavitù del peccato alla libertà dei figli di Dio.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="102">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> Siamo stati trasferiti dalle tenebre alla luce del Figlio di Dio, il quale è venuto per portare la vita agli uomini e una vita abbondante. Cristo è risorto!». Con chiarezza e semplicità don Oreste sintetizza il nostro mandato: andiamo con gioia ad annunciare che Gesù è risorto ed è vivo. Non ci serve portare con noi né oro né argento, ci basta annunciare Gesù Cristo il Nazareno. Ma stiamo attenti a non fare questo annuncio solo con le parole, testimoniamo con la nostra vita. Come? Stando con i poveri, se teniamo i poveri sempre con noi e nel cuore facendoci poveri con loro, saremo fautori della vera rivoluzione che trasforma il mondo: riusciremo ad amare i nemici, a pregare per chi ci perseguita, a perdonare chi costruisce croci, a dire la verità senza compromessi, a dire bene di chi dice male.  Prendiamo coscienza di essere popolo e traduciamo la Parola negli eventi piccoli e grandi della vita insieme, testimoniamo prima con la vita!</Content>
+				<Br />
+				<Content>Buona preghiera e buon cammino.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" FirstLineIndent="8.503937007874017" Justification="RightAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" Capitalization="SmallCaps">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>	Matteo Fadda</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>   </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="RightAlign">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">142</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" Capitalization="SmallCaps">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" Capitalization="SmallCaps" ParagraphBreakType="NextColumn">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">142</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SALMI" FontStyle="Regular" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>INTRODUZIONE ALLA PAROLA</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Dalla pioggia all’acqua</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="14">
+				<Properties>
+					<Leading type="unit">15</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">12</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" FirstLineIndent="8.503937007874017" Justification="LeftJustified">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">124</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Dopo esserci soffermati nella scorsa Introduzione sulla prima coppia di immagini (seme-pane) con la quale la Bibbia o la tradizione indica la Parola di Dio, ora rifletteremo sul secondo binomio (pioggia-acqua), proprio perché a metà di questo bimestre vivremo la Veglia Pasquale, nella quale l’acqua battesimale ha una peculiare importanza.</Content>
+				<Br />
+				<Content>Prima di pensare all’acqua del Battesimo, però, riflettiamo su cosa significhi che la Parola del Signore è come la pioggia. </Content>
+				<Br />
+				<Content>Riprendendo l’immagine dal testo di Isaia 55,1-11, che sarà la V Lettura della veglia Pasquale, l’accostamento tra pioggia/neve e Parola di Dio può suggerirci almeno due riflessioni importanti:</Content>
+				<Br />
+				<Content>1) Anzitutto dire che la Parola di Dio è come la pioggia che scende dal cielo sottolinea che essa viene da Dio, è suo Dono, che cade sulla terra proprio per permettere la vita ed intessere un dialogo d’amore tra Dio e l’umanità.</Content>
+				<Br />
+				<Content>2) Questa Parola poi dove arriva lascia il segno, proprio come l’acqua che porta vita, o scava la roccia… se sapremo guardare in profondità nella nostra storia, ci accorgeremo che la fecondità della Parola annunciata e accolta sa rendere straordinarie le nostre realtà, gli incontri e gli eventi quotidiani che essa può fecondare, donandoci frutti insperati e stupendi.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>Diceva don Oreste commentando proprio il testo di Isaia 55,10-11: «La Parola di Dio ha in sé una forza propria;</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content> le condizioni interiori di chi l’accoglie possono farla crescere in un modo più o meno rigoglioso o possono renderla infruttuosa. Malgrado tutto, la Parola di Dio produce sempre il suo effetto salvante.».</Content>
+				<Br />
+				<Content>Passando dalla pioggia all’acqua, altre tre riflessioni vanno considerate:</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>1) Anzitutto l’acqua è un fattore determinante per la vita, specialmente in un ambiente arido come la Palestina: essa infatti è assolutamente necessaria per vivere, è un bene prezioso che non va sprecato, un diritto di ogni essere umano e di ogni creatura, che va condiviso gratuitamente fra tutti. Chi ha avuto la fortuna di vedere un’oasi nel deserto, sa che dove c’è l’acqua ci sono piante ed erbe, animali e uomini… rinnovando così il “miracolo della vita”! (cf. l’acqua che sgorga dal Tempio in Ez 47 - Martedì della IV settimana di Quaresima). </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>2) Spesso poi nella Parola di Dio si usa l’immagine della sete per parlare del desiderio profondamente umano di Dio: è lui che con la sua Parola disseta la nostra vita, una terra spesso riarsa e assetata (cf. Sal 41,2-3), che trova nel Dialogo d’amore con Dio non solo ristoro, ma può diventare anche testimonianza di fede e di carità per chi ci incontra (cf. Gv 4,3-43).</Content>
+				<Br />
+				<Content>3) Certo l’acqua richiama tutto questo e molto ancora… soprattutto se la vediamo nel dinamismo celebrativo della Veglia Pasquale: dopo la liturgia del fuoco e del cero, la Parola, che annuncia la storia di salvezza di Dio con Israele e con ogni popolo, suscita nel credente il desiderio di aderire al Vangelo, diventando così “nuova creatura in Cristo” (attraverso il Battesimo, se catecumeno, o facendo memoria di esso, se già battezzato); è proprio il Cero pasquale, simbolo di Cristo-Luce del mondo, che, immerso nel fonte battesimale durante la preghiera di benedizione dell’acqua, la feconda e con il dono dello Spirito la rende capace di donare la “vita eterna”.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>In questi due mesi vivremo il “cuore” dell’anno liturgico</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>, che la primavera stessa ci fa riscoprire come il tempo della rinascita:</Content>
+				<Br />
+				<Content>1) Anzitutto concluderemo la Quaresima, tempo che ci prepara alla Pasqua, a vivere e riscoprire il nostro Battesimo, a predisporre il nostro cuore ad accogliere il perdono di Dio, che nella penitenza, umiltà e sobrietà quaresimali potremo domandare e celebrare anche attraverso il sacramento della Riconciliazione. </Content>
+				<Br />
+				<Content>2) Vivremo il culmine di tutto l’Anno liturgico nel Triduo Pasquale e nel giorno di Pasqua (31 Marzo).</Content>
+				<Br />
+				<Content>3) Cominceremo così i 50 giorni del Tempo di Pasqua, di cui in Aprile celebreremo le prime cinque settimane, nell’attesa ormai imminente della Solennità della Pentecoste (che cadrà però in Maggio, e che sarà occasione per riflettere sulla Parola come fuoco e luce… nella prossima puntata!). </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" FirstLineIndent="8.503937007874017" Justification="LeftJustified">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">CenterAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">162</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10" Capitalization="SmallCaps">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>	</Content>
+				<Br />
+				<Content>	Domenico Pompili</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Italic" PointSize="10">
+				<Properties>
+					<Leading type="unit">13</Leading>
+					<AppliedFont type="string">Palatino</AppliedFont>
+				</Properties>
+				<Content>	Vescovo di Verona</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

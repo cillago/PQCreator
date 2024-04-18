@@ -34,6 +34,7 @@ namespace PQCreator
         RTFTXTWriter rtxS;
         EPUBWriter epubW;
         NITFWriter nitfW;
+        TXTMP3Writer txtmp3W;
         IDMLWriter idmlW;
         public FormPQ()
         {
@@ -514,7 +515,19 @@ namespace PQCreator
                 TotalODT += odtI.ODTText;
             }
 
-            File.WriteAllText(TotalODT, path + "PQTotale.txt");
+            File.WriteAllText(path + "PQTotale.txt", TotalODT);
+            MessageBox.Show("OK");
+        }
+
+        private void bRead_Click(object sender, EventArgs e)
+        {
+            if (rtxS == null)
+            {
+                MessageBox.Show("File non caricato");
+                return;
+            }
+            txtmp3W = new TXTMP3Writer();
+            txtmp3W.CreateTXTMP3(PQI.dicPQTag);
             MessageBox.Show("OK");
         }
     }

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="19.0">
+	<Story Self="u2b89" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="22" HorizontalScale="98">
+				<Content>Abbonarsi a </Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="22" HorizontalScale="98">
+				<Content>è semplice!</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" HorizontalScale="98">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="13" HorizontalScale="98">
+				<Content>Scegli la modalità che preferisci</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" HorizontalScale="98">
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" LeftIndent="25.511811023622048">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" HorizontalScale="98">
+				<Content>all’indirizzo web </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" HorizontalScale="98" Tracking="0">
+				<Content>editoresempre.apg23.org</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" HorizontalScale="98">
+				<Br />
+				<Br />
+				<Content>scrivendo a </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" HorizontalScale="98" Tracking="-20">
+				<Content>semprecommunity@apg23.org</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" HorizontalScale="98">
+				<Content> </Content>
+				<Br />
+				<Br />
+				<Content>chiamando il numero </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" HorizontalScale="98" Tracking="0">
+				<Content>0442 25132</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" HorizontalScale="98">
+				<Br />
+				<Br />
+				<Content>scrivendo su Whatsapp al </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" HorizontalScale="98" Tracking="0">
+				<Content>345 769 16 14</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" HorizontalScale="98">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" LeftIndent="28.34645669291339">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" HorizontalScale="98">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="13" HorizontalScale="98">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="13" HorizontalScale="98">
+				<Content>Gira la pagina per saperne di più</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Regular" PointSize="13" HorizontalScale="98" Ligatures="false" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">Zapf Dingbats</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Regular" PointSize="20" HorizontalScale="98" Ligatures="false" BaselineShift="-3" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">Zapf Dingbats</AppliedFont>
+				</Properties>
+				<Content>➔</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="13" HorizontalScale="98">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

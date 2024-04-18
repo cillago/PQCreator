@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="19.0">
+	<Story Self="u2913" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+			<Properties>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">14</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">29</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">219</Position>
+					</ListItem>
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">224</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Felice III; S. Albino; B. Cristoforo da Milano</Content>
+				<Br />
+				<Content>S. Troadio; S. Angela della Croce; B. Carlo Bono</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>3ª DOMENICA QUARESIMA </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="94" Tracking="-10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>B; </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Katharine Drexel</Content>
+				<Br />
+				<Content>S. Casimiro; S. Giovanni Farina; B. Umberto di Savoia</Content>
+				<Br />
+				<Content>S. Teofilo; S. Adriano di C.; S. Virgilio</Content>
+				<Br />
+				<Content>S. Marciano; S. Vittorio; S. Coletta Boylet</Content>
+				<Br />
+				<Content>Ss. Perpetua e Felicita; S. Gaudioso; S: Teresa M. Redi</Content>
+				<Br />
+				<Content>S. Giovanni di Dio; S. Ponzio; S. Provino</Content>
+				<Br />
+				<Content>S. Francesca Romana; S. Domenico Savio</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Bold" PointSize="8.5" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>4ª DOMENICA QUARESIMA </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="95" Tracking="-10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>B; </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>Ss. Caio e Alessandro; S. Vittore</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Sofronio; S. Pionio; S. Eulogio</Content>
+				<Br />
+				<Content>S. Massimiliano; S. Simeone; S. Luigi Orione</Content>
+				<Br />
+				<Content>S. Sabino; S. Cristina; S. Ansovino</Content>
+				<Br />
+				<Content>S. Matilde; S. Paolina; B. Giacomo Cusmano</Content>
+				<Br />
+				<Content>S. Zaccaria; S. Luisa de Marillac</Content>
+				<Br />
+				<Content>Ss. Ilario e Taziano; S. Eriberto; S. José Gabriel del Rosario</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>5ª DOMENICA QUARESIMA </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="94" Tracking="-10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>B; </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Patrizio; S. Gertrude</Content>
+				<Br />
+				<Content>S. Cirillo di Gerusalemme; S. Frediano; S. Edoardo</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. GIUSEPPE</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content> (s); B. Andrea Gallerani</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="94" Tracking="-10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Martino; S. Giovanni Nepomuceno; S. Ambrogio S.</Content>
+				<Br />
+				<Content>S. Nicola di Flüe; S. Benedetta C. Frassinello; S. Serapione</Content>
+				<Br />
+				<Content>S. Epafrodito; S. Lea; S. Benvenuto Scotivoli</Content>
+				<Br />
+				<Content>S. Turibio di Mogrovejo; S. Gualterio (Walter); S. Rafqa</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Bold" PointSize="8.5" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>DOMENICA DELLE PALME</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="95" Tracking="-10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>; </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="95">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>B. Maria Karlowska; S. Oscar Romero</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="95" Tracking="-10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>S. Lucia Filippini</Content>
+				<Br />
+				<Content>Ss. Baronzio e Desiderio</Content>
+				<Br />
+				<Content>S. Ruperto; B. Francesco Faà; B. Pellegrino da Falerone</Content>
+				<Br />
+				<Content>Giovedì santo; S. Stefano Harding; S: Ilarione</Content>
+				<Br />
+				<Content>Venerdì santo: S. Guglielmo T.; S. Ludolfo; S. Eustasio</Content>
+				<Br />
+				<Content>S. Secondo; S. Leonardo Murialdo; B. Amedeo IX</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Bold" PointSize="8.5">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content>PASQUA DI RESURREZIONE</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/DIN" FillColor="Color/Registration" FontStyle="Medium" PointSize="8.5" HorizontalScale="94" Tracking="-10">
+				<Properties>
+					<Leading type="unit">10.5</Leading>
+					<AppliedFont type="string">Avenir Next Condensed</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

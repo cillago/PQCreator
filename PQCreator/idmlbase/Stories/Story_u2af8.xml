@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="19.0">
+	<Story Self="u2af8" UserText="true" IsEndnoteStory="false" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Capitalization="AllCaps">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>Quanto costa</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Capitalization="AllCaps">
+				<Properties>
+					<Leading type="unit">6</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" LeftIndent="8.503937007874017" FirstLineIndent="-8.503937007874017" Hyphenation="false" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>•	L’abbonamento annuale costa </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>€ 20</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> e comprende 6 numeri bimestrali. </Content>
+				<Br />
+				<Content>•	Versando solo </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>€ 8</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> in più accedi all’abbonamento </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>PQ+</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>: diventerai </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>sostenitore di Pane Quotidiano</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> e potrai leggerlo anche su smartphone e computer attraverso l&apos;APP PANE QUOTIDIANO.</Content>
+				<Br />
+				<Content>•	Sono previsti sconti progressivi per chi sottoscrive abbonamenti a 10 o più copie (contattaci per conoscere gli sconti).</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Capitalization="AllCaps">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>Come si paga</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Capitalization="AllCaps">
+				<Properties>
+					<Leading type="unit">6</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" LeftIndent="8.503937007874017" FirstLineIndent="-8.503937007874017" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>S</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>cegli la modalità che preferisci:</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" LeftIndent="8.503937007874017" FirstLineIndent="-8.503937007874017" Hyphenation="false" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>•	sul </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>conto corrente postale n.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Tracking="0">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> 155 89 484</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>intestato a: </Content>
+				<Br />
+				<Content>	Associazione Comunità Papa Giovanni XXIII </Content>
+				<Br />
+				<Content>	Editore Sempre - Via Mameli 1 - 47921 Rimini RN </Content>
+				<Br />
+				<Content>	causale “Abbonamento Pane Quotidiano 2024” </Content>
+				<Br />
+				<Content>	o “Abbonamento PQ+ 2024”</Content>
+				<Br />
+				<Content>•	sul </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>conto corrente bancario Iban: </Content>
+				<Br />
+				<Content>	</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Tracking="0">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>IT76 K 03069 09606 100000073510</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98" Tracking="0">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Br />
+				<Content>	(intestazione e causale come sopra) </Content>
+				<Br />
+				<Content>•	con </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Tracking="0">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>carta di credito</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> (anche dall’estero) </Content>
+				<Br />
+				<Content>	all’indirizzo internet </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Tracking="20">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>editoresempre.apg23.org</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">13</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Capitalization="AllCaps">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>Abbonamento dall’estero</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98" Capitalization="AllCaps">
+				<Properties>
+					<Leading type="unit">6</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Hyphenation="false" Justification="LeftJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>Il costo da Paesi UE è di </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>€ 28</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>, da Paesi extra UE </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>€ 35</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>In questo caso puoi pagare esclusivamente con </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>carta di credito</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content> all’indirizzo web sopra indicato o con </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>bonifico bancario </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>aggiungendo all’Iban il codice Bic </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9" Tracking="40">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>BCITITMM</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Medium" PointSize="9" HorizontalScale="98">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Content>.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Giornata mondiale" FontStyle="Bold" PointSize="9">
+				<Properties>
+					<Leading type="unit">10</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>
