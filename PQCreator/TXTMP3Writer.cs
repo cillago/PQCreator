@@ -71,6 +71,11 @@ namespace PQCreator
                                     if (partiGiorno[indexParteGiorno] == null)
                                     {
                                         //titolo salmo
+                                        int parAp = strofa.IndexOf("(");
+
+                                        if (parAp > 0)
+                                            strofa = strofa.Substring(0, parAp);
+
                                         partiGiorno[indexParteGiorno] += strofa + "..." + Environment.NewLine;
                                     }
                                     else if (ritornelloSalmo == null)
@@ -93,10 +98,18 @@ namespace PQCreator
                                     {
                                         foreach (StoryLine riga in singleTag.Value.Lines)
                                         {
-                                            partiGiorno[indexParteGiorno] += riga.getText() + "..." + Environment.NewLine;
+                                            string r = riga.getText();
+                                            if (r == "Oppure:")
+                                                continue;
+
+                                            int parAp = r.IndexOf("(");
+                                            int parCh = r.IndexOf(")");
+
+                                            if (parAp > 0 && parCh > 0)
+                                                r = r.Substring(0, parAp) + r.Substring(parCh+1);
+                                            partiGiorno[indexParteGiorno] += r + "..." + Environment.NewLine;
                                         }
                                     }
-
 
                                 }
                             }
@@ -124,10 +137,10 @@ namespace PQCreator
                             }
                             else if (i == 5)
                             {
-                                File.WriteAllText(Path.Combine(txtPath, ExtractNomeFileGiorno(nomeGiorno) + "_" + j + ".txt"), alleluia + Environment.NewLine + partiGiorno[i]);
+                                File.WriteAllText(Path.Combine(txtPath, ExtractNomeFileGiorno(nomeGiorno) + "_" + j + ".txt"), alleluia + Environment.NewLine + partiGiorno[i] + "... ... ...");
                             }
                             else if (partiGiorno[i] != null)
-                                File.WriteAllText(Path.Combine(txtPath, ExtractNomeFileGiorno(nomeGiorno) + "_" + j + ".txt"), partiGiorno[i]);
+                                File.WriteAllText(Path.Combine(txtPath, ExtractNomeFileGiorno(nomeGiorno) + "_" + j + ".txt"), partiGiorno[i] + Environment.NewLine + "... ... ...");
                         }
                     }
                 }
